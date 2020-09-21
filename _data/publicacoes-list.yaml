@@ -1,11 +1,12 @@
 #Tihs file defines all publication 
 
-p1:
-  titulo: Publicação 1
+p1: #id da publicação
+  titulo: Publicação 1 #titulo
+  #referência
   referencia: 'Renata Vieira e Vera L. S. Lima. Lingüı́stica computacional: princı́pios e aplicações. Mini-curso das Jornadas de Atualização em Inteligência Artificial. In: Anais do Encontro Nacional de Inteligência Artificial, 2001'
-  grupos: pln
-  data: '12/12/2020'
-  links:
+  grupos: pln #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  data: '12/12/2020' #data da publicação
+  links: #links
     git: https://link1
     conferencia: https://link2
     download: https://link3

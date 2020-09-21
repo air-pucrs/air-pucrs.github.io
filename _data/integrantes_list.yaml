@@ -1,23 +1,24 @@
 #This file defines all the members
 
-breather1:
-  nome: Avner
-  sobrenome: Dal Bosco
-  grupos: pln, ia-saude
-  posicao: pesquisador
-  nivel: Msc
-  foto: assets/logo-AIR.png
-  email: avnerdalbosco@gmail.com
-  redes-sociais:
+breather1: #id identificador do integrante
+  nome: Avner #nome
+  sobrenome: Dal Bosco #sobrenome
+  grupos: pln, ia-saude #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  posicao: pesquisador #posição
+  nivel: Msc #nível
+  foto: assets/logo-AIR.png #caminho para a foto 
+  email: avnerdalbosco@gmail.com # e-mail
+  redes-sociais: #redes sociais
     facebook: avner.bosco
     insta: avner.bosco
     linkedin: avner.bosco
     lattes: avner.bosco
     site: avner.bosco
+  #sobre
   sobre: Gosta de pizza e ontologias, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat tellus at diam imperdiet, vitae aliquet orci commodo. Donec risus ipsum, faucibus nec urna scelerisque, mollis congue turpis. Sed euismod, dui tincidunt tincidunt faucibus, dolor lectus tincidunt mi, et interdum augue mi eu ligula. Morbi sodales, libero vel porttitor dictum, ipsum nibh fringilla lorem, id convallis lorem dolor ac orci. Duis metus nisi, gravida non massa a, malesuada sagittis velit. Aliquam elementum semper elit, id rhoncus sapien blandit sit amet. Nullam sem arcu, tristique ac ultricies eget, feugiat in libero. Vestibulum mauris est, accumsan eget efficitur sit amet, accumsan id nisi. Fusce quam odio, porta eu lacus sit amet, dapibus vulputate ex. Suspendisse at sapien at nisl bibendum rhoncus sed eget sem. Suspendisse aliquam gravida erat, et elementum dui lacinia eu. Cras posuere, sem bibendum pretium mattis, tellus metus faucibus massa, non efficitur ligula lacus vel magna. Vivamus accumsan ante mollis tellus molestie interdum.Donec sit amet nunc dictum, sodales sapien id, posuere nisl. Vestibulum dictum vestibulum ex id feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tortor justo, efficitur vel finibus in, egestas ac lacus. Nulla sit amet erat id lacus euismod lobortis sit amet eu libero. In gravida ante at eros maximus euismod. Suspendisse potenti. Duis suscipit lacinia vulputate. Aliquam erat volutpat. Quisque vel justo ut sapien porttitor pretium. Proin cursus nulla et lectus interdum vestibulum. Donec quis dolor arcu. Sed in vehicula eros. Donec ut lobortis eros. Ut sed massa aliquet, hendrerit leo non, sagittis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed ullamcorper libero. Phasellus non purus id risus egestas hendrerit. Nulla dapibus ligula orci, vitae feugiat mauris porta sit amet. Pellentesque lacinia venenatis eleifend. Proin dignissim nunc a sem semper blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit massa, lobortis nec quam in, consectetur gravida diam. Mauris sodales volutpat lectus sit amet faucibus. Phasellus ultrices urna nec lacinia elementum. Donec sem dolor, semper quis dignissim at, sagittis quis mauris. Fusce nec tellus vel ligula hendrerit porttitor eu ut libero. Phasellus venenatis ante a luctus placerat. Nulla facilisi. Mauris non fermentum sem. Integer lobortis non quam in luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis in dignissim lacus. Curabitur nec lacinia augue, quis consequat ante. Donec elit arcu, tristique a mollis vel, pulvinar id ante. Sed accumsan rutrum tincidunt. Nunc sollicitudin ex quis tristique gravida. Nulla iaculis mattis neque, eget auctor leo consectetur at. Quisque iaculis arcu sem, et vestibulum orci placerat non. Nulla efficitur ut massa quis accumsan. Donec lorem tellus, porta sit amet luctus eget, mollis sit amet sem. Quisque et iaculis quam. Suspendisse potenti.
-  formacao: Técnologo em sistemas para internet
-  origem: Passo Fundo - RS 
-  nascimento: 28/08/1993
+  formacao: Técnologo em sistemas para internet #formação
+  origem: Passo Fundo - RS #origem
+  nascimento: 28/08/1993 #nascimento
 
 breather2:
   nome: Renata

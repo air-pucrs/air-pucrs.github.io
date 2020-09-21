@@ -1,13 +1,13 @@
 #Tihs file defines all projects 
 
-p1:
-  titulo: Projeto 1
-  status: ativo
-  palavras-chaves: saúde, pln, ontologias
-  descricao: descricão do projeto 1
-  tecnologias: ontologias
-  grupos: pln
-  links:
+p1: #identificador do projeto
+  titulo: Projeto 1 #titulo
+  status: ativo #status de andamento
+  palavras-chaves: saúde, pln, ontologias #palavras chaves separadas por ,
+  descricao: descricão do projeto 1 #descricao do projeto
+  tecnologias: ontologias #tecnologias utilziadas separadas por ,
+  grupos: pln #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  links: #links úteis
     git: https://link1
     conferencia: https://link2
 p2:

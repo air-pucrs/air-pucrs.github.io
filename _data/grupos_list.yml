@@ -1,21 +1,22 @@
 #This file defines all the groups
 
-pln:
-  nome: Processamento de Linguagem Natural
-  abreviacao: PLN
-  descricao: Somos a PLN descrição completa
-  resumo: Somos a PLN descrição resumida
-  link: pln
-  logo: assets/logo-AIR.png
-  temas-de-pesquisa: tema 1, tema 2, tema 3
-  areas-de-atuacao: area 1, area 2, area3
-  coordenadores: breather2, breather1
-  contatos:
-    telefone: telefone 1
+pln: #utilizado para identificar os dados desse grupo 
+  nome: Processamento de Linguagem Natural #nome do grupo
+  abreviacao: PLN #abreviação
+  descricao: Somos a PLN descrição completa #descrição do grupo
+  resumo: Somos a PLN descrição resumida #descrição resumida do grupo
+  link: pln #slug que vai aparecer na url, ex: www.site.com/pln
+  logo: assets/logo-AIR.png #endereço da imagem da log
+  temas-de-pesquisa: tema 1, tema 2, tema 3 #temas de pesquisa separados por ,
+  areas-de-atuacao: area 1, area 2, area3 #areas de atuação separados por ,
+  #id dos integrantes (seguir os registros do arquivo integrantes-list) separados por ,
+  coordenadores: breather2, breather1 
+  contatos: #contatos do grupo
+    telefone: telefone 1 # id : contato, o id é utilizado como 'tipo' do contato
     endereço: endereço 1
     email: email 1
-  materiais:
-    m1:
+  materiais: #materias para download
+    m1: #este id é apenas identificador
       titulo: 'Material 1'
       link: 'https://www.inf.pucrs.br/linatural/Recursos/Desafios.pdf'
     m2:
