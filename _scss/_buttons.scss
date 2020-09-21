@@ -51,6 +51,19 @@
     pointer-events: none;
   }
 
+  // Button members
+  &.btn-members {
+    background: transparent !important; 
+    border: 1px solid #FE5E33 !important;
+    color: #FE5E33 !important;
+    &:focus,
+    &:hover {
+      background: #FE5E33 !important;
+      color: #fffffe !important;
+      border-color: #FE5E33 !important;
+    }
+  }
+
   // Button Primary
   &.btn-primary {
     background: $primary-color;

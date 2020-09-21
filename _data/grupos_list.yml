@@ -1,0 +1,50 @@
+#This file defines all the groups
+
+pln:
+  nome: Processamento de Linguagem Natural
+  abreviacao: PLN
+  descricao: Somos a PLN descrição completa
+  resumo: Somos a PLN descrição resumida
+  link: pln
+  logo: assets/logo-AIR.png
+  temas-de-pesquisa: tema 1, tema 2, tema 3
+  areas-de-atuacao: area 1, area 2, area3
+  coordenadores: breather2, breather1
+  contatos:
+    telefone: telefone 1
+    endereço: endereço 1
+    email: email 1
+  materiais:
+    m1:
+      titulo: 'Material 1'
+      link: 'https://www.inf.pucrs.br/linatural/Recursos/Desafios.pdf'
+    m2:
+      titulo: 'Material 2'
+      link: 'https://www.inf.pucrs.br/linatural/Recursos/Desafios.pdf'
+
+smart:
+  nome: Semantic, Multi-Agent, and Robotic Technologies
+  abreviacao: SMART
+  descricao: Somos a SMART descrição completa
+  resumo: Somos a Smart descrição resumida
+  link: smart
+  logo: assets/logo-AIR.png
+  temas-de-pesquisa: tema 3, tema 4
+  areas-de-atuacao: area 5
+  coordenadores: breather2
+  contatos:
+    telefone: telefone 1
+    email: email 1
+
+ia-saude:
+  nome: Inteligência Artificial na Saúde
+  abreviacao: IA Saúde
+  descricao: Somos a ia-saude descrição completa
+  resumo: Somos a ia-saude descrição resumida
+  link: ia-saude
+  logo: assets/logo-AIR.png
+  temas-de-pesquisa: tema 1
+  areas-de-atuacao: area 2
+  contatos:
+    endereço: endereço 1
+    email: email 1

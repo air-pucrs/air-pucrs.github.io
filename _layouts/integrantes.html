@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<div class="container-full">
+  <div class="container grid-xl">
+    <div class="mt-12 show-md"></div>
+    <div class="mt-8"></div>
+    <div class="columns negative-m-xl">
+      <div class="column col-12">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Integrantes</a>
+          </li>
+        </ul>
+        <h2 class="text-light text-bold">Breathers</h2>
+        <p class="text-light mb-2">Todos os membros que integram o AIR</p>
+      </div>
+      {% for member in site.data.integrantes_list %}
+      {% capture m %}{{ member | first }}{% endcapture %}
+      {% assign integrante = site.data.integrantes_list[m] %}
+        {% include integrante-card.html %}
+        {% include integrante-modal.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+// Get the button that opens the modal
+var btn = document.querySelectorAll("button.open-modal");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+     }
+    }
+}
+</script>
+
+
+
+
+
+

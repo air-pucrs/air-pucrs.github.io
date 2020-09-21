@@ -1,0 +1,51 @@
+<div id="modal-{{projeto.titulo | slugify}}" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header rows row-y-align">
+
+      <div class="columns col-x-align">
+        <div class="column col-auto">
+          <span class="mb-0">{{ projeto.titulo }}</span>
+        </div>
+        <div class="column">
+          <span class="close">×</span>
+        </div>
+      </div>
+
+      <div class="columns col-x-align"> 
+        <div class="column">
+          <span>{{projeto.status}}</span>
+        </div>  
+        <div class="column col-auto">
+          {% assign grupos = projeto.grupos | split: "," %}
+          {% for g in grupos %}
+            {% assign gs = g | strip %}
+            {% assign grupo = site.data.grupos_list[gs] %}
+            <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
+              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+            </a>
+          {% endfor %}
+        </div>       
+      </div>
+
+      <div class="columns col-x-align"> 
+        <div class="column col-auto">
+          {% for links in projeto.links %}
+          {% capture l %}{{ links | first }}{% endcapture %}
+          {% assign link = projeto.links[l] %}
+            <span>{{l}}: {{link}}</span>
+          {% endfor %}
+        </div>       
+      </div>
+
+    </div>
+    <div class="modal-body">
+      <p>Sobre: {{projeto.descricao}}</p>
+    </div>
+    <div class="modal-footer">
+      <h3></h3>
+    </div>
+  </div>
+
+</div>

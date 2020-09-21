@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<div class="container-full">
+  <div class="container grid-xl">
+    <div class="mt-12 show-md"></div>
+    <div class="mt-8"></div>
+    <div class="columns negative-m-xl">
+      <div class="column col-12">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Publicações</a>
+          </li>
+        </ul>
+        <h2 class="text-light text-bold">Publicações</h2>
+        <p class="text-light mb-2">Todos os trabalhos publicados pelo AIR</p>
+      </div>
+      {% for publication in site.data.publicacoes-list %}
+      {% capture p %}{{ publication | first }}{% endcapture %}
+      {% assign publicacao = site.data.publicacoes-list[p] %}
+        {% include publicacao-card.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

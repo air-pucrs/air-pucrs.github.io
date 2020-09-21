@@ -1,0 +1,35 @@
+<div class="column col-12">
+  <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="card-body">
+      <div class="columns col-x-align">
+        <div class="column col-sm-12">
+          <div class="ml-2">
+            <span class="text-dark mb-0">{{ projeto.titulo }}</span>
+          </div>
+        </div>
+        <div class="column col-sm-12">
+          <span class="text-semibold m-0">{{ projeto.status }}</span>
+        </div>
+        <div class="column col-sm-12">
+          {% assign grupos = projeto.grupos | split: "," %}
+          {% for g in grupos %}
+            {% assign gs = g | strip %}
+            {% assign grupo = site.data.grupos_list[gs] %}
+            <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
+              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+            </a>
+          {% endfor %}
+        </div>
+        <div class="column col-sm-12">
+          {% assign pchaves = projeto.palavras-chaves | split: "," %}
+          {% for chave in pchaves %}
+            <span>{{chave}}</span>
+          {% endfor %}            
+        </div>
+        <div class="column col-sm-12">
+          <button href="#modal-{{projeto.titulo | slugify}}" style="height: auto;" class="btn btn-members btn-lg btn-outline py-2 open-modal">+info</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
