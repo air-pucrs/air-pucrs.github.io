@@ -30,27 +30,9 @@ smart:
   resumo: We research in the areas of multi-agent systems and domain-specific knowledge representation using formal ontologies
   link: smart
   logo: assets/smart/logos/SMARTlogo.png
-  temas-de-pesquisa: 
-  - Argumentation
-  - Multi-Agent Planning
-  - Task Allocation
-  - Formal Semantics
-  - Formal Verification of Multi-Agent Systems
-  - Multi-Agent Oriented Programming Languages
-  - Intention Recognition
-  - Conceptual Spaces
-  - Ontological Reasoning
-  areas-de-atuacao: 
-  - Assisted Living
-  - Disaster Management
-  - Human-Agent Teams
-  - Cognitive Robotics
-  - Multi-Robotics
-  - Protected-area patrol
-  - Smart Cities
-  - Logistics
-  coordenadores: 
-  - Rafael H. Bordini
+  temas-de-pesquisa: Argumentation, Multi-Agent Planning, Task Allocation, Formal Semantics, Formal Verification of Multi-Agent Systems, Multi-Agent Oriented Programming Languages, Intention Recognition, Conceptual Spaces, Ontological Reasoning
+  areas-de-atuacao: Assisted Living, Disaster Management, Human-Agent Teams, Cognitive Robotics, Multi-Robotics, Protected-area patrol, Smart Cities, Logistics
+  coordenadores: Rafael H. Bordini
   contatos:
     telefone: 
     email: smart.pucrs@gmail.com
