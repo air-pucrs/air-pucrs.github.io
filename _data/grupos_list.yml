@@ -26,16 +26,34 @@ pln: #utilizado para identificar os dados desse grupo
 smart:
   nome: Semantic, Multi-Agent, and Robotic Technologies
   abreviacao: SMART
-  descricao: Somos a SMART descrição completa
-  resumo: Somos a Smart descrição resumida
+  descricao: The SMART research group produces internationally leading research in Artificial Intelligence, especially in the areas of multi-agent systems and domain-specific knowledge representation using formal ontologies. Overall, the group aims to employ the techniques it develops in the production of innovative technology for the social good and sustainability.
+  resumo: We research in the areas of multi-agent systems and domain-specific knowledge representation using formal ontologies
   link: smart
-  logo: assets/logo-AIR.png
-  temas-de-pesquisa: tema 3, tema 4
-  areas-de-atuacao: area 5
-  coordenadores: breather2
+  logo: assets/smart/logos/SMARTlogo.png
+  temas-de-pesquisa: 
+  - Argumentation
+  - Multi-Agent Planning
+  - Task Allocation
+  - Formal Semantics
+  - Formal Verification of Multi-Agent Systems
+  - Multi-Agent Oriented Programming Languages
+  - Intention Recognition
+  - Conceptual Spaces
+  - Ontological Reasoning
+  areas-de-atuacao: 
+  - Assisted Living
+  - Disaster Management
+  - Human-Agent Teams
+  - Cognitive Robotics
+  - Multi-Robotics
+  - Protected-area patrol
+  - Smart Cities
+  - Logistics
+  coordenadores: 
+  - Rafael H. Bordini
   contatos:
-    telefone: telefone 1
-    email: email 1
+    telefone: 
+    email: smart.pucrs@gmail.com
 
 ia-saude:
   nome: Inteligência Artificial na Saúde
