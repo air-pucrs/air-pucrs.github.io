@@ -11,22 +11,22 @@ p1: #identificador do projeto
     git: https://link1
     conferencia: https://link2
 p2:
-  titulo: Projeto 2
-  status: concluído
+  titulo: DOMAP
+  status: finished
   palavras-chaves: multi-agentes
-  descricao: descricao projeto 2
-  tecnologias: chat-bot
+  descricao: "The Decentralised Online Multi-Agent Planning framework (DOMAP) provides multi-agent systems with capabilities to solve cooperative online multi-agent planning problems. DOMAP is divided into several main components: i) multi-agent system factored representation, a multi-agent planning formalism that contains information about the world according to each agent's point of view;  ii) a contract net protocol mechanism for goal allocation; iii) individual Hierarchical Task Network (HTN) planning; iv) social laws to coordinate agents at runtime. DOMAP is implemented in the JaCaMo platform."
+  tecnologias: planning
   grupos: smart
   links:
-    git: https://link1
-    conferencia: https://link2
+    git: https://github.com/smart-pucrs/DOMAP
+    conferencia: 
 p3:
-  titulo: projeto 2
+  titulo: Pró-Alertas
   status: ativo
-  palavras-chaves: chave1, chave,2
-  descricao: projeto 3
-  tecnologias: tec1, tec2, tec3
-  grupos: pln, ia-saude
+  palavras-chaves: disaster response
+  descricao: Combines the technology created in other projects into a single system and provides a citywide simulation environment to test responses and planning under different disaster scenarios.
+  tecnologias: 
+  grupos: smart
   links: 
-    git: https://link1
-    conferencia: https://link2
+    git: 
+    conferencia: 

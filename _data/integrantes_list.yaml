@@ -38,3 +38,46 @@ breather2:
   formacao: Doutora em Ciências da Computação
   origem: Porto Alegre - RS 
   nascimento: 01/09/1993
+
+breather3:
+  nome: Rafael
+  sobrenome: H. Bordini
+  grupos: pln, ia-saude, smart
+  posicao: coordenador
+  nivel: Doc
+  foto: "http://www.inf.pucrs.br/r.bordini/Rafael_Bordini/Welcome_files/shapeimage_2.png"
+  email: renata.vieira@gmail.com
+  redes-sociais:
+    facebook: 
+    insta: 
+    linkedin: 
+    lattes: http://lattes.cnpq.br/4589262718627942
+    site: http://www.inf.pucrs.br/r.bordini/Rafael_Bordini/Welcome.html
+    dblp: https://dblp.uni-trier.de/pers/hd/b/Bordini:Rafael_H=.html
+  sobre: I am an Associate Professor at FACIN-PUCRS since March 2012. Previous to this appointment, I was an associate professor at INF-UFRGS (from July 2009) and previous to that I was a Lecturer in the Department of Computer Science, Durham University, UK (July 2004 to January 2009). I read for a PhD at UCL (finished in early 1999), then worked as a visiting lecturer at INF-UFRGS (until May 2002), and from June 2002 to May 2004 I was a post-doctoral researcher at the University of Liverpool.
+  formacao: 
+  origem: 
+  nascimento: 
+
+breather5:
+  nome: Tabajara 
+  sobrenome: Krausburg
+  grupos: smart
+  posicao: PhD Student
+  nivel: Doc
+  foto: https://avatars3.githubusercontent.com/u/10147197?s=460&v=4
+  email: tabajara.rodrigues@edu.pucrs.br
+  redes-sociais:
+    facebook: 
+    insta: 
+    linkedin: 
+    lattes: http://lattes.cnpq.br/5382334937056578
+    site: 
+    dblp: https://dblp.uni-trier.de/pers/hd/k/Krausburg:Tabajara
+    orcid: 0000-0002-8252-4099
+    github: https://github.com/TabajaraKrausburg
+    twitter: "https://twitter.com/TabajaraK"
+  sobre: I am currently working on Coalition Formation techniques applied to Industry 4.0 and Disaster Rescue domains.
+  formacao: 
+  origem: Caxias do Sul, Brazil
+  nascimento: 
