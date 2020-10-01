@@ -5,7 +5,7 @@ breather1: #id identificador do integrante
   sobrenome: Dal Bosco #sobrenome
   grupos: pln, ia-saude #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   posicao: pesquisador #posição
-  nivel: Msc #nível
+  nivel: msc #nível (utilizar msc para mestre|mestrando, doc para doutor|doutorando, pos-doc para pos-doutor)
   foto: assets/logo-AIR.png #caminho para a foto 
   email: avnerdalbosco@gmail.com # e-mail
   redes-sociais: #redes sociais
@@ -25,7 +25,7 @@ breather2:
   sobrenome: Vieira
   grupos: pln, ia-saude, smart
   posicao: coordenadora
-  nivel: Doc
+  nivel: doc
   foto: assets/logo-AIR.png
   email: renata.vieira@gmail.com
   redes-sociais:
@@ -44,7 +44,7 @@ breather3:
   sobrenome: H. Bordini
   grupos: pln, ia-saude, smart
   posicao: coordenador
-  nivel: Doc
+  nivel: doc
   foto: "http://www.inf.pucrs.br/r.bordini/Rafael_Bordini/Welcome_files/shapeimage_2.png"
   email: renata.vieira@gmail.com
   redes-sociais:
@@ -64,7 +64,7 @@ breather5:
   sobrenome: Krausburg
   grupos: smart
   posicao: PhD Student
-  nivel: Doc
+  nivel: doc
   foto: https://avatars3.githubusercontent.com/u/10147197?s=460&v=4
   email: tabajara.rodrigues@edu.pucrs.br
   redes-sociais:

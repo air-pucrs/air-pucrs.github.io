@@ -19,6 +19,26 @@ layout: default
         </ul>
         <h2 class="text-light text-bold">Breathers</h2>
         <p class="text-light mb-2">Todos os membros que integram o AIR</p>
+        <p class="text-light mb-2">Filtre Por:</p>
+        <div class="column">
+          <fieldset class="rows">      
+              <legend>Grupos</legend>
+              {% for group in site.data.grupos_list %}
+                {% capture grupo_name %}{{ group | first }}{% endcapture %}
+                {% assign grupo = site.data.grupos_list[grupo_name] %}
+                <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">{{ grupo.abreviacao }}      
+              {% endfor %}              
+          </fieldset> 
+        </div>
+        <div class="column">
+          <fieldset class="rows">      
+              <legend>Nível</legend>
+                <input type="radio" name="nivel" value="" class="row filter" checked=""> Todos
+                <input type="radio" name="nivel" value="msc" class="row filter"> Mestre
+                <input type="radio" name="nivel" value="doc" class="row filter"> Doutor  
+                <input type="radio" name="nivel" value="pos-doc" class="row filter"> Pós-Doc             
+          </fieldset> 
+        </div>
       </div>
       {% for member in site.data.integrantes_list %}
       {% capture m %}{{ member | first }}{% endcapture %}
@@ -26,6 +46,19 @@ layout: default
         {% include integrante-card.html %}
         {% include integrante-modal.html %}
       {% endfor %}
+      <div class="column col-12 filter-card-empty" data-groups="none" style="display: none;">
+        <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+          <div class="card-body">
+            <div class="columns col-x-align">
+              <div class="column col-sm-12">
+                <div class="ml-2">
+                  <span class="text-dark mb-0">Nenhum Integrante encontrado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -68,8 +101,42 @@ window.onclick = function(event) {
 }
 </script>
 
+<!-- filtros das listas -->
+<script type="text/javascript">
+  var filters = ['groups', 'nivel']
 
+  function applyFilters(){
+    var query = ""
 
+    for(filter of filters){
+      var checked = ''
+      $('input[name="'+filter+'"]:checked').each(function(){
+        checked += $(this).val()+', '
+      })
+      checked = checked.trim().slice(0, -1)
+      if(checked != ''){        
+        query += '[data-'+filter+'*="'+checked+'"]'
+      }
+    }
+
+    $("div.filter-card:not("+query+")").hide()
+    $("div.filter-card"+query).show()
+
+    if($('div.filter-card:visible').length == 0){
+      $('div.filter-card-empty')[0].style.display = ''
+    }
+    else{
+      $('div.filter-card-empty')[0].style.display = 'none'
+    }
+  }
+
+  var input = $('input.filter')
+
+  input.change(function(){
+    applyFilters()
+  })
+
+</script>
 
 
 
