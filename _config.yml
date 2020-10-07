@@ -22,7 +22,7 @@ title: Site Air
 tagline: Grupo de IA da PUCRS
 description: Site do grupo Air
 baseurl:  # the subpath of your site, e.g. /support
-url: hhttps://air-pucrs.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+url: https://air-pucrs.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 use_authors: true #Set this to false to disable showing post authors
