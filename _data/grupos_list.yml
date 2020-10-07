@@ -1,16 +1,16 @@
 #This file defines all the groups
 
 pln: #utilizado para identificar os dados desse grupo 
-  nome: Processamento de Linguagem Natural #nome do grupo
-  abreviacao: PLN #abreviação
+  nome: Natural Processing Language #nome do grupo
+  abreviacao: NLP #abreviação
   descricao: Somos a PLN descrição completa #descrição do grupo
   resumo: Somos a PLN descrição resumida #descrição resumida do grupo
-  link: pln #slug que vai aparecer na url, ex: www.site.com/pln
+  link: nlp #slug que vai aparecer na url, ex: www.site.com/pln
   logo: assets/logo-AIR.png #endereço da imagem da log
   temas-de-pesquisa: tema 1, tema 2, tema 3 #temas de pesquisa separados por ,
   areas-de-atuacao: area 1, area 2, area3 #areas de atuação separados por ,
   #id dos integrantes (seguir os registros do arquivo integrantes-list) separados por ,
-  coordenadores: breather2, breather1 
+  coordenadores: breather2 
   contatos: #contatos do grupo
     telefone: telefone 1 # id : contato, o id é utilizado como 'tipo' do contato
     endereço: endereço 1
@@ -32,20 +32,21 @@ smart:
   logo: assets/smart/logos/SMARTlogo.png
   temas-de-pesquisa: Argumentation, Multi-Agent Planning, Task Allocation, Formal Semantics, Formal Verification of Multi-Agent Systems, Multi-Agent Oriented Programming Languages, Intention Recognition, Conceptual Spaces, Ontological Reasoning
   areas-de-atuacao: Assisted Living, Disaster Management, Human-Agent Teams, Cognitive Robotics, Multi-Robotics, Protected-area patrol, Smart Cities, Logistics
-  coordenadores: Rafael H. Bordini
+  coordenadores: breather3
   contatos:
     telefone: 
     email: smart.pucrs@gmail.com
 
 ia-saude:
-  nome: Inteligência Artificial na Saúde
-  abreviacao: IA Saúde
+  nome: Research Group on Artificial Intelligence in Healthcare
+  abreviacao: Health AI
   descricao: Somos a ia-saude descrição completa
   resumo: Somos a ia-saude descrição resumida
-  link: ia-saude
+  link: health-ai
   logo: assets/logo-AIR.png
   temas-de-pesquisa: tema 1
   areas-de-atuacao: area 2
+  coordenadores: breather3
   contatos:
     endereço: endereço 1
     email: email 1
