@@ -6,7 +6,7 @@ p1: #identificador do projeto
   palavras-chaves: saúde, pln, ontologias #palavras chaves separadas por ,
   descricao: descricão do projeto 1 #descricao do projeto
   tecnologias: ontologias #tecnologias utilziadas separadas por ,
-  grupos: pln, smart #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  grupos: nlp, smart #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   links: #links úteis
     git: https://link1
     conferencia: https://link2
