@@ -56,9 +56,18 @@
 
     </div>
     <div class="modal-body">
+      {% if integrante.sobre == null %}
+      {% else %}
       <p>Sobre: {{integrante.sobre}}</p>
+      {% endif %}
+      {% if integrante.formacao == null %}
+      {% else %}
       <p>Formação: {{integrante.formacao}}</p>
+      {% endif %}
+      {% if integrante.origem == null %}
+      {% else %}
       <p>Cidade: {{integrante.origem}}</p>
+      {% endif %}
     </div>
     <div class="modal-footer">
       <h3></h3>
