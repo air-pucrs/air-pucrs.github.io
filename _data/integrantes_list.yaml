@@ -45,7 +45,7 @@ breather3:
   grupos: pln, ia-saude, smart
   posicao: coordenador
   nivel: doc
-  foto: "http://www.inf.pucrs.br/r.bordini/Rafael_Bordini/Welcome_files/shapeimage_2.png"
+  foto: assets/logo-AIR.png
   email: renata.vieira@gmail.com
   redes-sociais:
     facebook: 
@@ -65,7 +65,7 @@ breather5:
   grupos: smart
   posicao: PhD Student
   nivel: doc
-  foto: https://avatars3.githubusercontent.com/u/10147197?s=460&v=4
+  foto: assets/logo-AIR.png
   email: tabajara.rodrigues@edu.pucrs.br
   redes-sociais:
     facebook: 
@@ -93,6 +93,9 @@ breather5:
     redes-sociais:
       lattes: http://lattes.cnpq.br/8825252769988113
     sobre:
+    formacao: 
+    origem:
+    nascimento: 
 
   breather7:
     nome: Juliana 
