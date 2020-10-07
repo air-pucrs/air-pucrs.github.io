@@ -3,7 +3,7 @@
 breather1: #id identificador do integrante
   nome: Avner #nome
   sobrenome: Dal Bosco #sobrenome
-  grupos: pln, ia-saude #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  grupos: nlp, health-ai #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   posicao: MsC Student #posição
   nivel: msc #nível (utilizar msc para mestre|mestrando, doc para doutor|doutorando, pos-doc para pos-doutor)
   foto: assets/logo-AIR.png #caminho para a foto 
@@ -23,7 +23,7 @@ breather1: #id identificador do integrante
 breather2:
   nome: Renata
   sobrenome: Vieira
-  grupos: pln, ia-saude, smart
+  grupos: nlp, health-ai, smart
   posicao: Associate Professor
   nivel: doc
   foto: assets/logo-AIR.png
@@ -42,7 +42,7 @@ breather2:
 breather3:
   nome: Rafael
   sobrenome: H. Bordini
-  grupos: pln, ia-saude, smart
+  grupos: nlp, health-ai, smart
   posicao: Associate Professor
   nivel: doc
   foto: assets/logo-AIR.png
@@ -96,7 +96,7 @@ breather6:
 breather7:
     nome: Juliana 
     sobrenome: Damasio
-    grupos: ia-saude, smart
+    grupos: health-ai, smart
     posicao: PhD Student
     nivel: doc
     foto: assets/logo-AIR.png
@@ -107,7 +107,7 @@ breather7:
 breather8:
     nome: Henrique 
     sobrenome: Dias
-    grupos: pln, ia-saude
+    grupos: nlp, health-ai
     posicao: PhD Student
     nivel: doc
     foto: assets/logo-AIR.png
@@ -118,7 +118,7 @@ breather8:
 breather9:
     nome: Débora 
     sobrenome: Engelmann
-    grupos: ia-saude, smart
+    grupos: health-ai, smart
     posicao: PhD Student
     nivel: doc
     foto: assets/logo-AIR.png
@@ -129,7 +129,7 @@ breather9:
 breather10:
     nome: Janete 
     sobrenome: Urbanetto
-    grupos: ia-saude
+    grupos: health-ai
     posicao: Associate Professor
     nivel: doc
     foto: assets/logo-AIR.png
@@ -140,7 +140,7 @@ breather10:
 breather11:
     nome: Amanda
     sobrenome: Pestana
-    grupos: ia-saude
+    grupos: health-ai
     posicao: MsC Student
     nivel: msc
     foto: assets/logo-AIR.png
@@ -151,7 +151,7 @@ breather11:
 breather12:
     nome: Joaquim
     sobrenome: Santos
-    grupos: pln
+    grupos: nlp
     posicao: PhD Student
     nivel: doc
     foto: assets/logo-AIR.png
