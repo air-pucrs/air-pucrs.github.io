@@ -82,7 +82,7 @@ breather5:
   origem: Caxias do Sul, Brazil
   nascimento: 
 
-  breather6:
+breather6:
     nome: Alison
     sobrenome: Panisson
     grupos: smart
@@ -97,7 +97,7 @@ breather5:
     origem:
     nascimento: 
 
-  breather7:
+breather7:
     nome: Juliana 
     sobrenome: Damasio
     grupos: ia-saude, smart
@@ -109,7 +109,7 @@ breather5:
       lattes: http://lattes.cnpq.br/8969323487877188
     sobre:
 
-  breather8:
+breather8:
     nome: Henrique 
     sobrenome: Dias
     grupos: pln, ia-saude
@@ -121,7 +121,7 @@ breather5:
       lattes: http://lattes.cnpq.br/3339071169068613
     sobre:
 
-  breather9:
+breather9:
     nome: Débora 
     sobrenome: Engelmann
     grupos: ia-saude, smart
@@ -133,7 +133,7 @@ breather5:
       lattes: http://lattes.cnpq.br/0774052060467864
     sobre:
 
-  breather10:
+breather10:
     nome: Janete 
     sobrenome: Urbanetto
     grupos: ia-saude
@@ -145,7 +145,7 @@ breather5:
       lattes: http://lattes.cnpq.br/8935137454685552
     sobre:
 
-  breather11:
+breather11:
     nome: Amanda
     sobrenome: Pestana
     grupos: ia-saude
@@ -157,7 +157,7 @@ breather5:
       lattes: http://lattes.cnpq.br/7892612003826611
     sobre:
 
-  breather11:
+breather11:
     nome: Amanda
     sobrenome: Pestana
     grupos: ia-saude
@@ -169,7 +169,7 @@ breather5:
       lattes: http://lattes.cnpq.br/7892612003826611
     sobre:
 
-  breather12:
+breather12:
     nome: Joaquim
     sobrenome: Santos
     grupos: pln
@@ -179,4 +179,3 @@ breather5:
     email: joaquim.santos@acad.pucrs.br
     redes-sociais:
       lattes: http://lattes.cnpq.br/6511667784239144
-    sobre:
