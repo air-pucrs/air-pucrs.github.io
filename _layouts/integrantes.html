@@ -40,7 +40,7 @@ layout: default
           </fieldset> 
         </div>
       </div>
-      {% for member in site.data.integrantes_list %}
+      {% for member in site.data.integrantes_list | sort: "nome" %}
       {% capture m %}{{ member | first }}{% endcapture %}
       {% assign integrante = site.data.integrantes_list[m] %}
         {% include integrante-card.html %}

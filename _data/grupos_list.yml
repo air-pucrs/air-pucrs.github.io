@@ -1,6 +1,6 @@
 #This file defines all the groups
 
-pln: #utilizado para identificar os dados desse grupo 
+nlp: #utilizado para identificar os dados desse grupo 
   nome: Natural Processing Language #nome do grupo
   abreviacao: NLP #abreviação
   descricao: Somos a PLN descrição completa #descrição do grupo
@@ -37,7 +37,7 @@ smart:
     telefone: 
     email: smart.pucrs@gmail.com
 
-ia-saude:
+health-ai:
   nome: Research Group on Artificial Intelligence in Healthcare
   abreviacao: Health AI
   descricao: Somos a ia-saude descrição completa

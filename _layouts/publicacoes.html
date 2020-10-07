@@ -37,7 +37,7 @@ layout: default
           </fieldset> 
         </div>
       </div>
-      {% for publication in site.data.publicacoes-list %}
+      {% for publication in site.data.publicacoes-list | sort: "titulo" %}
       {% capture p %}{{ publication | first }}{% endcapture %}
       {% assign publicacao = site.data.publicacoes-list[p] %}
         {% include publicacao-card.html %}
