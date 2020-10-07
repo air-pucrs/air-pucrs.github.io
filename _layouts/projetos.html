@@ -1,0 +1,146 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<div class="container-full">
+  <div class="container grid-xl">
+    <div class="mt-12 show-md"></div>
+    <div class="mt-8"></div>
+    <div class="columns negative-m-xl">
+      <div class="column col-12">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Projetos</a>
+          </li>
+        </ul>
+        <h2 class="text-light text-bold">Projetos</h2>
+        <p class="text-light mb-2">Todos os projetos realizados pelo AIR</p>
+        <p class="text-light mb-2">Filtre Por:</p>
+        <div class="column">
+          <fieldset class="rows">      
+              <legend>Grupos</legend>
+              {% for group in site.data.grupos_list %}
+                {% capture grupo_name %}{{ group | first }}{% endcapture %}
+                {% assign grupo = site.data.grupos_list[grupo_name] %}
+                <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">{{ grupo.abreviacao }}      
+              {% endfor %}              
+          </fieldset> 
+        </div>
+        <div class="column">
+          <fieldset class="rows">      
+              <legend>Status</legend>
+                <input type="radio" name="status" value="" class="row filter" checked=""> Todos
+                <input type="radio" name="status" value="ativo" class="row filter"> Ativo
+                <input type="radio" name="status" value="concluído" class="row filter"> Concluído  
+                <input type="radio" name="status" value="suspenso" class="row filter"> Suspenso             
+          </fieldset> 
+        </div>
+      </div>
+      {% for project in site.data.projetos-list %}
+      {% capture p %}{{ project | first }}{% endcapture %}
+      {% assign projeto = site.data.projetos-list[p] %}
+        {% include projeto-card.html %}
+        {% include projeto-modal.html %}
+      {% endfor %}
+      <div class="column col-12 filter-card-empty" data-groups="none" style="display: none;">
+        <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+          <div class="card-body">
+            <div class="columns col-x-align">
+              <div class="column col-sm-12">
+                <div class="ml-2">
+                  <span class="text-dark mb-0">Nenhum Projeto encontrado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- opens modal -->
+<script>
+// Get the button that opens the modal
+var btn = document.querySelectorAll("button.open-modal");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+     }
+    }
+}
+</script>
+
+<!-- filtros das listas -->
+<script type="text/javascript">
+  var filters = ['groups', 'status']
+
+  function applyFilters(){
+    var query = ""
+
+    for(filter of filters){
+      var checked = ''
+      $('input[name="'+filter+'"]:checked').each(function(){
+        checked += $(this).val()+', '
+      })
+      checked = checked.trim().slice(0, -1)
+      if(checked != ''){        
+        query += '[data-'+filter+'*="'+checked+'"]'
+      }
+    }
+
+    $("div.filter-card:not("+query+")").hide()
+    $("div.filter-card"+query).show()
+
+    if($('div.filter-card:visible').length == 0){
+      $('div.filter-card-empty')[0].style.display = ''
+    }
+    else{
+      $('div.filter-card-empty')[0].style.display = 'none'
+    }
+  }
+
+  var input = $('input.filter')
+
+  input.change(function(){
+    applyFilters()
+  })
+
+</script>
+
+
+
+
+
+

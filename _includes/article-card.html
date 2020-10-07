@@ -1,0 +1,36 @@
+{% assign grupos = post.grupos | split: "," %}
+<div class="column col-12 filter-card" data-groups="{{ grupos | sort | join: ', '' }}" data-date="{{post.data | date: '%F'}}">
+  <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="card-body">
+      <div class="columns">
+        <div class="column col col-sm-12">
+          <a href="{{ site.baseurl}}{{ post.url }}">
+            <h5 class="text-semibold m-0">{{ post.title }}</h5>
+            <p class="m-0 text-dark">{{ post.short-description }}</p>            
+          </a>
+        </div>
+        <div class="column">
+          <p class="m-0 text-dark">{{ post.data }}</p>
+        </div>
+        <div class="column">
+          <div class="flex-vertical-center">
+            <div class="ml-2">
+              {% for g in grupos %}
+                {% assign gs = g | strip %}
+                {% assign grupo = site.data.grupos_list[gs] %}
+                <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
+                  <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+                </a>
+              {% endfor %}
+            </div>
+          </div>           
+        </div>
+        <div class="column col-auto">
+          <button href="{{ site.baseurl}}{{ post.url }}" style="height: auto;" class="btn btn-members btn-lg btn-outline py-2">Ler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

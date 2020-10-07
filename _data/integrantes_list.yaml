@@ -1,0 +1,163 @@
+#This file defines all the members
+
+breather1: #id identificador do integrante
+  nome: Avner #nome
+  sobrenome: Dal Bosco #sobrenome
+  grupos: pln, ia-saude #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  posicao: pesquisador #posição
+  nivel: msc #nível (utilizar msc para mestre|mestrando, doc para doutor|doutorando, pos-doc para pos-doutor)
+  foto: assets/logo-AIR.png #caminho para a foto 
+  email: avnerdalbosco@gmail.com # e-mail
+  redes-sociais: #redes sociais
+    facebook: avner.bosco
+    insta: avner.bosco
+    linkedin: avner.bosco
+    lattes: avner.bosco
+    site: avner.bosco
+  #sobre
+  sobre: Gosta de pizza e ontologias, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat tellus at diam imperdiet, vitae aliquet orci commodo. Donec risus ipsum, faucibus nec urna scelerisque, mollis congue turpis. Sed euismod, dui tincidunt tincidunt faucibus, dolor lectus tincidunt mi, et interdum augue mi eu ligula. Morbi sodales, libero vel porttitor dictum, ipsum nibh fringilla lorem, id convallis lorem dolor ac orci. Duis metus nisi, gravida non massa a, malesuada sagittis velit. Aliquam elementum semper elit, id rhoncus sapien blandit sit amet. Nullam sem arcu, tristique ac ultricies eget, feugiat in libero. Vestibulum mauris est, accumsan eget efficitur sit amet, accumsan id nisi. Fusce quam odio, porta eu lacus sit amet, dapibus vulputate ex. Suspendisse at sapien at nisl bibendum rhoncus sed eget sem. Suspendisse aliquam gravida erat, et elementum dui lacinia eu. Cras posuere, sem bibendum pretium mattis, tellus metus faucibus massa, non efficitur ligula lacus vel magna. Vivamus accumsan ante mollis tellus molestie interdum.Donec sit amet nunc dictum, sodales sapien id, posuere nisl. Vestibulum dictum vestibulum ex id feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tortor justo, efficitur vel finibus in, egestas ac lacus. Nulla sit amet erat id lacus euismod lobortis sit amet eu libero. In gravida ante at eros maximus euismod. Suspendisse potenti. Duis suscipit lacinia vulputate. Aliquam erat volutpat. Quisque vel justo ut sapien porttitor pretium. Proin cursus nulla et lectus interdum vestibulum. Donec quis dolor arcu. Sed in vehicula eros. Donec ut lobortis eros. Ut sed massa aliquet, hendrerit leo non, sagittis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed ullamcorper libero. Phasellus non purus id risus egestas hendrerit. Nulla dapibus ligula orci, vitae feugiat mauris porta sit amet. Pellentesque lacinia venenatis eleifend. Proin dignissim nunc a sem semper blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit massa, lobortis nec quam in, consectetur gravida diam. Mauris sodales volutpat lectus sit amet faucibus. Phasellus ultrices urna nec lacinia elementum. Donec sem dolor, semper quis dignissim at, sagittis quis mauris. Fusce nec tellus vel ligula hendrerit porttitor eu ut libero. Phasellus venenatis ante a luctus placerat. Nulla facilisi. Mauris non fermentum sem. Integer lobortis non quam in luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis in dignissim lacus. Curabitur nec lacinia augue, quis consequat ante. Donec elit arcu, tristique a mollis vel, pulvinar id ante. Sed accumsan rutrum tincidunt. Nunc sollicitudin ex quis tristique gravida. Nulla iaculis mattis neque, eget auctor leo consectetur at. Quisque iaculis arcu sem, et vestibulum orci placerat non. Nulla efficitur ut massa quis accumsan. Donec lorem tellus, porta sit amet luctus eget, mollis sit amet sem. Quisque et iaculis quam. Suspendisse potenti.
+  formacao: Técnologo em sistemas para internet #formação
+  origem: Passo Fundo - RS #origem
+  nascimento: 28/08/1993 #nascimento
+
+breather2:
+  nome: Renata
+  sobrenome: Vieira
+  grupos: pln, ia-saude, smart
+  posicao: coordenadora
+  nivel: doc
+  foto: assets/logo-AIR.png
+  email: renata.vieira@gmail.com
+  redes-sociais:
+    facebook: renata.vieira
+    insta: renata.vieira
+    linkedin: renata.vieira
+    lattes: renata.vieira
+    site: renata.vieira
+  sobre: Gosta de pizza e ontologias
+  formacao: Doutora em Ciências da Computação
+  origem: Porto Alegre - RS 
+  nascimento: 01/09/1993
+
+breather3:
+  nome: Rafael
+  sobrenome: H. Bordini
+  grupos: pln, ia-saude, smart
+  posicao: coordenador
+  nivel: doc
+  foto: "http://www.inf.pucrs.br/r.bordini/Rafael_Bordini/Welcome_files/shapeimage_2.png"
+  email: renata.vieira@gmail.com
+  redes-sociais:
+    facebook: 
+    insta: 
+    linkedin: 
+    lattes: http://lattes.cnpq.br/4589262718627942
+    site: http://www.inf.pucrs.br/r.bordini/Rafael_Bordini/Welcome.html
+    dblp: https://dblp.uni-trier.de/pers/hd/b/Bordini:Rafael_H=.html
+  sobre: I am an Associate Professor at FACIN-PUCRS since March 2012. Previous to this appointment, I was an associate professor at INF-UFRGS (from July 2009) and previous to that I was a Lecturer in the Department of Computer Science, Durham University, UK (July 2004 to January 2009). I read for a PhD at UCL (finished in early 1999), then worked as a visiting lecturer at INF-UFRGS (until May 2002), and from June 2002 to May 2004 I was a post-doctoral researcher at the University of Liverpool.
+  formacao: 
+  origem: 
+  nascimento: 
+
+breather5:
+  nome: Tabajara 
+  sobrenome: Krausburg
+  grupos: smart
+  posicao: PhD Student
+  nivel: doc
+  foto: https://avatars3.githubusercontent.com/u/10147197?s=460&v=4
+  email: tabajara.rodrigues@edu.pucrs.br
+  redes-sociais:
+    facebook: 
+    insta: 
+    linkedin: 
+    lattes: http://lattes.cnpq.br/5382334937056578
+    site: 
+    dblp: https://dblp.uni-trier.de/pers/hd/k/Krausburg:Tabajara
+    orcid: 0000-0002-8252-4099
+    github: https://github.com/TabajaraKrausburg
+    twitter: "https://twitter.com/TabajaraK"
+  sobre: I am currently working on Coalition Formation techniques applied to Industry 4.0 and Disaster Rescue domains.
+  formacao: 
+  origem: Caxias do Sul, Brazil
+  nascimento: 
+
+  breather6:
+  nome: Alison
+  sobrenome: Panisson
+  grupos: smart
+  posicao: Post-Doctoral Researcher
+  nivel: doc
+  email: alison.panisson@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/8825252769988113
+
+  breather7:
+  nome: Juliana 
+  sobrenome: Damasio
+  grupos: ia-saude, smart
+  posicao: PhD Student
+  nivel: doc
+  email: juliana.damasio@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/8969323487877188
+
+  breather8:
+  nome: Henrique 
+  sobrenome: Dias
+  grupos: pln, ia-saude
+  posicao: PhD Student
+  nivel: doc
+  email: henrique.santos.003@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/3339071169068613
+
+  breather9:
+  nome: Débora 
+  sobrenome: Engelmann
+  grupos: ia-saude, smart
+  posicao: PhD Student
+  nivel: doc
+  email: debora.engelmann@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/0774052060467864
+
+  breather10:
+  nome: Janete 
+  sobrenome: Urbanetto
+  grupos: ia-saude
+  posicao: Associate Professor
+  nivel: doc
+  email: jurbanetto@pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/8935137454685552
+
+  breather11:
+  nome: Amanda
+  sobrenome: Pestana
+  grupos: ia-saude
+  posicao: MsC Student
+  nivel: msc
+  email: amanda.pestana@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/7892612003826611
+
+  breather11:
+  nome: Amanda
+  sobrenome: Pestana
+  grupos: ia-saude
+  posicao: MsC Student
+  nivel: msc
+  email: amanda.pestana@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/7892612003826611
+
+  breather12:
+  nome: Joaquim
+  sobrenome: Santos
+  grupos: pln
+  posicao: PhD Student
+  nivel: doc
+  email: joaquim.santos@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/6511667784239144

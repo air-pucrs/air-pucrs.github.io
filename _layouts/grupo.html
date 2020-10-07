@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+{% assign grupo = site.data.grupos_list[page.group] %}
+
+
+<div class="container-full">
+    <div class="container grid-xl">
+      <div class="mt-12 show-md"></div>
+      <div class="mt-8"></div>
+      <div class="columns negative-m-xl">
+        <div class="column col-12">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">{{ page.title }}</a>
+            </li>
+          </ul>
+          <h2 class="text-light text-bold">{{ page.title }}</h2>
+          <p class="text-light mb-0">{{ grupo.nome }}</p>
+        </div>
+        <div class="column col-12">
+          <div class="card">
+            <div class="card-body">                
+                <div class="flex-vertical-center mb-4">
+                  <figure class="avatar d-inline-block" style="align-items: center;">
+                    <img  src="../{{ grupo.logo }}" alt="...">
+                  </figure>
+                  <div class="ml-2">
+                    <p class="text-dark text-small mb-0">Sobre</span></p></p>
+                  </div>
+                </div>
+                {{ grupo.descricao }}
+            </div>
+          </div>
+        </div>
+
+        <div class="column col-12">
+          <div class="card">
+            <div class="card-body">                
+                <div class="flex-vertical-center mb-4">
+                  <div class="ml-2">
+                    <p class="text-dark text-small mb-0">Temas de Pesquisa</span></p></p>
+                  </div>
+                </div>
+                <ul>
+                  {% assign temas = grupo.temas-de-pesquisa | split: "," %}
+                  {% for tema in temas %}
+                  <li>{{tema}}</li>
+                  {% endfor %}                   
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col-12">
+          <div class="card">
+            <div class="card-body">                
+                <div class="flex-vertical-center mb-4">
+                  <div class="ml-2">
+                    <p class="text-dark text-small mb-0">Áreas de Atuação</span></p></p>
+                  </div>
+                </div>
+                <ul>
+                  {% assign areas = grupo.areas-de-atuacao | split: "," %}
+                  {% for area in areas %}
+                  <li>{{area}}</li>
+                  {% endfor %}                   
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col-12">
+          <div class="card">
+            <div class="card-body">                
+                <div class="flex-vertical-center mb-4">
+                  <div class="ml-2">
+                    <p class="text-dark text-small mb-0">Coordenadores</span></p></p>
+                  </div>
+                </div>
+                <ul>
+                  {% assign coordenadores = grupo.coordenadores | split: "," %}
+                  {% for manager in coordenadores %}
+                  {% assign m = manager | strip %}
+                  {% assign coordenador = site.data.integrantes_list[m] %}
+                  <li>{{coordenador.nome}} {{coordenador.sobrenome}}</li>
+                  {% endfor %}                   
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col-12">
+          <div class="card">
+            <div class="card-body">                
+                <div class="flex-vertical-center mb-4">
+                  <div class="ml-2">
+                    <p class="text-dark text-small mb-0">Contatos</span></p></p>
+                  </div>
+                </div>
+                <ul>
+                  {% for contact in grupo.contatos %}
+                  {% capture c %}{{ contact | first }}{% endcapture %}
+                  {% assign contato = grupo.contatos[c] %}
+                  <li>{{c}}: {{contato}}</li>
+                  {% endfor %}                   
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        {% if grupo.materiais != null%}
+          <div class="column col-12">
+            <div class="card">
+              <div class="card-body">                
+                  <div class="flex-vertical-center mb-4">
+                    <div class="ml-2">
+                      <p class="text-dark text-small mb-0">Materias de Introdução</span></p></p>
+                    </div>
+                  </div>
+                  <ul>
+                  {% for references in grupo.materiais %}
+                  {% capture m %}{{ references | first }}{% endcapture %}
+                  {% assign material = grupo.materiais[m] %}
+                  <li>
+                    <span>{{material.titulo}}</span>
+                    <a href="{{material.link}}">Download</a>
+                  </li>
+                  {% endfor %}                   
+                </ul>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>

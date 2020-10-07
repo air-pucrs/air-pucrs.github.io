@@ -1,0 +1,51 @@
+#This file defines all the groups
+
+pln: #utilizado para identificar os dados desse grupo 
+  nome: Processamento de Linguagem Natural #nome do grupo
+  abreviacao: PLN #abreviação
+  descricao: Somos a PLN descrição completa #descrição do grupo
+  resumo: Somos a PLN descrição resumida #descrição resumida do grupo
+  link: pln #slug que vai aparecer na url, ex: www.site.com/pln
+  logo: assets/logo-AIR.png #endereço da imagem da log
+  temas-de-pesquisa: tema 1, tema 2, tema 3 #temas de pesquisa separados por ,
+  areas-de-atuacao: area 1, area 2, area3 #areas de atuação separados por ,
+  #id dos integrantes (seguir os registros do arquivo integrantes-list) separados por ,
+  coordenadores: breather2, breather1 
+  contatos: #contatos do grupo
+    telefone: telefone 1 # id : contato, o id é utilizado como 'tipo' do contato
+    endereço: endereço 1
+    email: email 1
+  materiais: #materias para download
+    m1: #este id é apenas identificador
+      titulo: 'Material 1'
+      link: 'https://www.inf.pucrs.br/linatural/Recursos/Desafios.pdf'
+    m2:
+      titulo: 'Material 2'
+      link: 'https://www.inf.pucrs.br/linatural/Recursos/Desafios.pdf'
+
+smart:
+  nome: Semantic, Multi-Agent, and Robotic Technologies
+  abreviacao: SMART
+  descricao: The SMART research group produces internationally leading research in Artificial Intelligence, especially in the areas of multi-agent systems and domain-specific knowledge representation using formal ontologies. Overall, the group aims to employ the techniques it develops in the production of innovative technology for the social good and sustainability.
+  resumo: We research in the areas of multi-agent systems and domain-specific knowledge representation using formal ontologies
+  link: smart
+  logo: assets/smart/logos/SMARTlogo.png
+  temas-de-pesquisa: Argumentation, Multi-Agent Planning, Task Allocation, Formal Semantics, Formal Verification of Multi-Agent Systems, Multi-Agent Oriented Programming Languages, Intention Recognition, Conceptual Spaces, Ontological Reasoning
+  areas-de-atuacao: Assisted Living, Disaster Management, Human-Agent Teams, Cognitive Robotics, Multi-Robotics, Protected-area patrol, Smart Cities, Logistics
+  coordenadores: Rafael H. Bordini
+  contatos:
+    telefone: 
+    email: smart.pucrs@gmail.com
+
+ia-saude:
+  nome: Inteligência Artificial na Saúde
+  abreviacao: IA Saúde
+  descricao: Somos a ia-saude descrição completa
+  resumo: Somos a ia-saude descrição resumida
+  link: ia-saude
+  logo: assets/logo-AIR.png
+  temas-de-pesquisa: tema 1
+  areas-de-atuacao: area 2
+  contatos:
+    endereço: endereço 1
+    email: email 1

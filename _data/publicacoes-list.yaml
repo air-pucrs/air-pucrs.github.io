@@ -1,0 +1,30 @@
+#Tihs file defines all publication 
+
+p1: #id da publicação
+  titulo: Publicação 1 #titulo
+  #referência
+  referencia: 'Renata Vieira e Vera L. S. Lima. Lingüı́stica computacional: princı́pios e aplicações. Mini-curso das Jornadas de Atualização em Inteligência Artificial. In: Anais do Encontro Nacional de Inteligência Artificial, 2001'
+  grupos: pln #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  data: '12/12/2020' #data da publicação
+  links: #links
+    git: https://link1
+    conferencia: https://link2
+    download: https://link3
+p2:
+  titulo: Publicação 2
+  referencia: 'Vera L. S. Lima, Maria G. V. Nunes e Renata Vieira. Desafios do processamento de línguas naturais. In: Anais do XXVII Congresso da Sociedade Brasileira de Computação, 2007. p. 2202–2216.'
+  grupos: pln
+  data: '12/12/2020'
+  links:
+    git: https://link1
+    conferencia: https://link2
+    download: https://link3
+p3:
+  titulo: Publicação 3
+  referencia: referencia
+  grupos: pln, smart
+  data: '15/01/2020'
+  links:
+    git: https://link1
+    conferencia: https://link2
+    download: https://link3

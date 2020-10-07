@@ -1,0 +1,44 @@
+{% assign grupos = post.grupos | split: "," %}
+<div class="column col-12 filter-card" data-groups="{{ grupos | sort | join: ', '' }}" data-date="{{publicacao.data | date: '%F'}}">
+  <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="card-body">
+      <div class="columns col-x-align">
+        <div class="column col-sm-12">
+          <div class="ml-2">
+            <span class="text-dark mb-0">{{ publicacao.titulo }}</span>
+          </div>
+        </div>
+        <div class="column col-sm-12">
+          <span class="text-semibold m-0">{{ publicacao.data }}</span>
+        </div>
+        <div class="column col-sm-12">
+          {% for g in grupos %}
+            {% assign gs = g | strip %}
+            {% assign grupo = site.data.grupos_list[gs] %}
+            <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
+              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="columns col-x-align">
+        <div class="column col-sm-12">
+          <div class="ml-2">
+            <span class="text-dark mb-0">{{ publicacao.referencia }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="columns col-x-align">
+        <div class="column col-sm-12">
+          <div class="ml-2">
+            {% for links in publicacao.links %}
+            {% capture l %}{{ links | first }}{% endcapture %}
+            {% assign link = publicacao.links[l] %}
+              <span>{{l}}: {{link}}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

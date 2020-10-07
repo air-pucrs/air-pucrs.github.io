@@ -1,0 +1,48 @@
+<nav class="container grid-xl navbar">
+  <div class="flex-horizontal-center hide-sm">
+    <a style="width: 20%;" href="{{ site.url }}{{ site.baseurl }}" class="logo">
+      <img style="max-width: 100%;" src="{{ site.baseurl }}/assets/{{ site.brand_logo }}"/>
+    </a>
+    <p class="m-0 ml-2 text-light d-inline">Artificial Intelligence Research Group at PUCRS</p>
+  </div>
+
+  <div class="text-center show-sm">
+    <a style="width: 100%;" href="{{ site.url }}{{ site.baseurl }}" class="logo flex-centered">
+      <img style="max-width: 150px;" src="{{ site.baseurl }}/assets/{{ site.brand_logo }}"/>
+    </a>
+    <p class="m-0 text-light">Artificial Intelligence Research Group at PUCRS</p>
+    
+    <!--TODO Adicionar menu responsivo -->
+
+  </div>
+
+  <ul class="main-nav">
+
+    <!-- TODO Ajustar css do dropdown -->
+    <li class="dropdown mx-4">
+      <a href="{{ site.baseurl }}/" class="dropdown-toggle nav-links" style="color:white">Grupos</a>
+      <ul class="menu">
+        {% for group in site.data.grupos_list %}
+        {% capture grupo_name %}{{ group | first }}{% endcapture %}
+        {% assign grupo = site.data.grupos_list[grupo_name] %}
+          <li>
+            <a href="{{ site.baseurl }}/grupo-{{grupo.link}}" class="dropdown-link">{{grupo.abreviacao}}</a>
+          </li>
+        {% endfor %} 
+      </ul>
+    </li>
+
+    <li class="mx-4">
+      <a class="nav-links" href="{{ site.baseurl }}/novidades">Novidades</a>
+    </li>
+    <li class="mx-4">
+      <a  class="nav-links" href="{{ site.baseurl }}/integrantes">Integrantes</a>
+    </li>
+    <li class="mx-4">
+      <a  class="nav-links" href="{{ site.baseurl }}/projetos">Projetos</a>
+    </li>
+    <li class="mx-4">
+      <a  class="nav-links" href="{{ site.baseurl }}/publicacoes">Publicações</a>
+    </li>
+  </ul>
+</nav>

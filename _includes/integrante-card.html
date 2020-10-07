@@ -1,0 +1,42 @@
+{% assign grupos = integrante.grupos | split: "," %}
+
+<div class="column col-12 filter-card" data-groups="{{ grupos | sort | join: ', '' }}" data-nivel="{{integrante.nivel}}">
+  <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <div class="card-body">
+      <div class="columns col-x-align">
+        <div class="column col-sm-12">
+          <div class="row">
+            
+            <div class="flex-vertical-center">
+              <figure class="avatar d-inline-block hide-sm" style="align-items: center;">
+                <img  src="{{ site.baseurl }}/{{ integrante.foto}}" alt="...">
+              </figure>
+              <div class="ml-2">
+                <span class="text-dark mb-0">{{ integrante.nome }} {{integrante.sobrenome}}</span>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div class="column col-sm-12">
+          <span class="text-semibold m-0">{{ integrante.posicao }}</span>
+        </div>
+        <div class="column col-sm-12">
+          <span class="text-semibold m-0">{{ integrante.nivel }}</span>
+        </div>
+        <div class="column col-sm-12">
+          {% for g in grupos %}
+            {% assign gs = g | strip %}
+            {% assign grupo = site.data.grupos_list[gs] %}
+            <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
+              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+            </a>
+          {% endfor %}
+        </div>
+        <div class="column col-sm-12">
+          <button href="#modal-{{integrante.nome | slugify}}" style="height: auto;" class="btn btn-members btn-lg btn-outline py-2 open-modal">+info</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
