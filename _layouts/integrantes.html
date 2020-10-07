@@ -40,9 +40,16 @@ layout: default
           </fieldset> 
         </div>
       </div>
-      {% for member in site.data.integrantes_list | sort: "nome" %}
-      {% capture m %}{{ member | first }}{% endcapture %}
-      {% assign integrante = site.data.integrantes_list[m] %}
+      {% assign members = "" | split: "" %}
+      {% for member in site.data.integrantes_list %}
+        {% assign members = members | push: member[1] %}
+      {% endfor %}
+
+      {% assign members = members | sort: "nome" %}
+
+
+      {% for member in members %}
+      {% assign integrante = member %}
         {% include integrante-card.html %}
         {% include integrante-modal.html %}
       {% endfor %}

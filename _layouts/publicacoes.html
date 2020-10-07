@@ -37,9 +37,15 @@ layout: default
           </fieldset> 
         </div>
       </div>
-      {% for publication in site.data.publicacoes-list | sort: "titulo" %}
-      {% capture p %}{{ publication | first }}{% endcapture %}
-      {% assign publicacao = site.data.publicacoes-list[p] %}
+      {% assign publications = "" | split: "" %}
+      {% for publication in site.data.publicacoes_list %}
+        {% assign publications = publications | push: publication[1] %}
+      {% endfor %}
+
+      {% assign publications = publications | sort: "titulo" %}
+
+      {% for publication in publications %}
+      {% assign publicacao = publication %}
         {% include publicacao-card.html %}
       {% endfor %}
       <div class="column col-12 filter-card-empty" data-groups="none" style="display: none;">

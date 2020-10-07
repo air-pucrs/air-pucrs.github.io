@@ -40,9 +40,15 @@ layout: default
           </fieldset> 
         </div>
       </div>
-      {% for project in site.data.projetos-list | sort: "titulo" %}
-      {% capture p %}{{ project | first }}{% endcapture %}
-      {% assign projeto = site.data.projetos-list[p] %}
+      {% assign projects = "" | split: "" %}
+      {% for project in site.data.projetos_list %}
+        {% assign projects = projects | push: project[1] %}
+      {% endfor %}
+
+      {% assign projects = projects | sort: "titulo" %}
+
+      {% for project in projects %}
+      {% assign projeto = project %}
         {% include projeto-card.html %}
         {% include projeto-modal.html %}
       {% endfor %}
