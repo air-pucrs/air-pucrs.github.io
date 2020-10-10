@@ -65,7 +65,7 @@ breather5:
   grupos: smart
   posicao: PhD Student
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: https://avatars3.githubusercontent.com/u/10147197?s=460&v=4
   email: tabajara.rodrigues@edu.pucrs.br
   redes-sociais:
     facebook: 
@@ -158,3 +158,141 @@ breather12:
     email: joaquim.santos@acad.pucrs.br
     redes-sociais:
       lattes: http://lattes.cnpq.br/6511667784239144
+
+breather13:
+  nome: Mateus  
+  sobrenome: da Silveira Colissi
+  grupos: smart
+  posicao: MsC Student
+  nivel: msc
+  foto: https://i.ibb.co/ctmJTB4/Whats-App-Image-2019-11-24-at-14-03-33-3.jpg
+  email: mateus.colissi@edu.pucrs.br
+  redes-sociais:
+    facebook: 
+    insta: https://www.instagram.com/mscolissi/
+    linkedin: 
+    lattes: http://lattes.cnpq.br/9027071770132048
+    site: 
+    dblp: 
+    orcid: 
+    github: https://github.com/Colissi
+    twitter: 
+  sobre: Currently working with a conversational agent to assist in coordinating collaborative learning.
+  formacao: 
+  origem: Santa Maria, Brazil
+  nascimento: 
+
+breather14:
+  nome: Davi
+  sobrenome: Kniest da Silva
+  grupos: smart
+  posicao: Undergraduate Research Trainee
+  nivel: 
+  foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2873136E5
+  email: davi.kds.01@gmail.com 
+  redes-sociais:
+    facebook: 
+    insta:
+    linkedin: 
+    lattes: http://lattes.cnpq.br/6150427403268893
+    site: 
+    dblp: 
+    orcid: 
+    github: https://github.com/Davi-K-Silva
+    twitter: 
+  sobre: Undergraduate student at PUCRS in Computer Science
+  formacao: 
+  origem: Porto Alegre, Brazil
+  nascimento: 
+
+breather15:
+  nome: Eric 
+  sobrenome: Carlotto
+  grupos: smart
+  posicao: Undergraduate Research Trainee
+  nivel: 
+  foto: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA9zZrbA-9Xl6Jmsnml0Nv8O063XPXuZHKwg&usqp=CAU
+  email: eric.carlottoitapiruba@gmail.com 
+  redes-sociais:
+    facebook: https://www.facebook.com/ecarlotto
+    insta: https://www.instagram.com/ericcarlotto/
+    linkedin: 
+    lattes: http://lattes.cnpq.br/3707765176085288
+    site: 
+    dblp: 
+    orcid: 
+    github: https://github.com/ericcarlotto
+    twitter: 
+  sobre: Undergraduate student at PUCRS in information systems
+  formacao: 
+  origem: Porto Alegre - Brazil
+  nascimento: 
+
+breather16:
+  nome: Lucca
+  sobrenome: Dornelles Cezar
+  grupos: smart
+  posicao: Undergraduate Research Trainee
+  nivel: 
+  foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?id=K9746597A1
+  email: lucca.cezar@edu.pucrs.br
+  redes-sociais:
+    facebook: 
+    insta:
+    linkedin: 
+    lattes: http://lattes.cnpq.br/1493554402130962
+    site: 
+    dblp: 
+    orcid: 
+    github: https://github.com/rukndf
+    twitter: 
+  sobre: 
+  formacao: 
+  origem: Porto Alegre, Brazil
+  nascimento: 
+
+breather17:
+  nome: João Gabriel
+  sobrenome: Dourado Cervo
+  grupos: smart
+  posicao: Undergraduate Research Trainee
+  nivel: 
+  foto: https://media-exp1.licdn.com/dms/image/C5603AQGiGb8ejwFmCg/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=FC1rfre4azmdQYBn5_J3pK_hjQrHcNuZLc1bT_h8wAE
+  email: j.dourado@edu.pucrs.br
+  redes-sociais:
+    facebook: 
+    insta: https://www.instagram.com/j_gabrr/
+    linkedin: 
+    lattes: http://lattes.cnpq.br/6011842150801001
+    site: 
+    dblp: 
+    orcid: 
+    github: https://github.com/Gabriel-Cervo
+    twitter: 
+  sobre: 
+  formacao: 
+  origem: São Borja, Brazil
+  nascimento: 
+
+breather18:
+  nome: Samuel
+  sobrenome: Pavanati Nascimento
+  grupos: smart
+  posicao: Undergraduate Research Trainee
+  nivel: 
+  foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2187338T9
+  email: samuelnascimento278@gmail.com 
+  redes-sociais:
+    facebook: 
+    insta: https://www.instagram.com/samuel_supers3/
+    linkedin: 
+    lattes: http://lattes.cnpq.br/4307586519624886
+    site: 
+    dblp: 
+    orcid: 
+    github: https://github.com/SamEngCompPUCRS
+    twitter: 
+  sobre: 
+  formacao: 
+  origem: Porto Alegre, Brazil
+  nascimento: 
