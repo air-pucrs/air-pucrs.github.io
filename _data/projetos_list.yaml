@@ -1,7 +1,6 @@
 #Tihs file defines all projects 
 
-p1: #identificador do projeto
-  titulo: Projeto 1 #titulo
+- titulo: Projeto 1 #titulo
   status: ativo #status de andamento
   palavras-chaves: saúde, pln, ontologias #palavras chaves separadas por ,
   descricao: descricão do projeto 1 #descricao do projeto
@@ -10,8 +9,7 @@ p1: #identificador do projeto
   links: #links úteis
     git: https://link1
     conferencia: https://link2
-p2:
-  titulo: DOMAP
+- titulo: DOMAP
   status: concluído
   palavras-chaves: multi-agentes
   descricao: "The Decentralised Online Multi-Agent Planning framework (DOMAP) provides multi-agent systems with capabilities to solve cooperative online multi-agent planning problems. DOMAP is divided into several main components: i) multi-agent system factored representation, a multi-agent planning formalism that contains information about the world according to each agent's point of view;  ii) a contract net protocol mechanism for goal allocation; iii) individual Hierarchical Task Network (HTN) planning; iv) social laws to coordinate agents at runtime. DOMAP is implemented in the <a href=\"http://jacamo.sourceforge.net/\" target=\"_blank\">JaCaMo</a> platform."
@@ -20,8 +18,7 @@ p2:
   links:
     git: https://github.com/smart-pucrs/DOMAP
     conferencia: 
-p3:
-  titulo: Pró-Alertas
+- titulo: Pró-Alertas
   status: ativo
   palavras-chaves: disaster response
   descricao: Combines the technology created in other projects into a single system and provides a citywide simulation environment to test responses and planning under different disaster scenarios.
@@ -29,10 +26,8 @@ p3:
   grupos: smart
   links: 
     git: 
-    conferencia: 
-  
-p4:
-  titulo: Argumentation-Based Framework
+    conferencia:   
+- titulo: Argumentation-Based Framework
   status: ativo
   palavras-chaves: argumentation
   descricao: "An Argumentation-Based Framework for BDI Agents using <a href=\"http://jacamo.sourceforge.net/\" target=\"_blank\">JaCaMo</a> Platform. In this project, we investigate the use of argumentation techniques to enable argumentation-based reasoning and communication in multi-agent systems. The source codes for this project are available in the following links:
@@ -43,4 +38,69 @@ p4:
   links: 
     git: https://github.com/AlisonPanisson/ABRinAOPL
     git_2: https://github.com/AlisonPanisson/EBCF
+    conferencia: 
+- titulo: Coalition Formation
+  status: done
+  palavras-chaves: coalition formation
+  descricao: "To apply coalition formation techniques in MAS programming, we developed a CArtAgO artefact to integrate different coalition formation algorithms in MAS."
+  tecnologias: JaCa
+  grupos: smart
+  links: 
+    git: https://github.com/smart-pucrs/Coalition4MAS
+    conferencia: 
+- titulo: JaCaMo with Dialogflow Integration
+  status: ativo
+  palavras-chaves: coalition formation
+  descricao: To give Jason the ability to communicate with users through natural language, we are developing an integration between JaCaMo and Dialogflow.
+  tecnologias: JaCa
+  grupos: smart
+  links: 
+    git: https://github.com/DeboraEngelmann/helloworld_from_jason
+    conferencia: 
+- titulo: JaCaMo with Ontologies
+  status: ativo
+  palavras-chaves: Ontology
+  descricao: To give Jason the ability to get knowledge in an ontology, we are developing an example of consultations of JaCaMo in an Ontology.
+  tecnologias: JaCa
+  grupos: smart
+  links: 
+    git: https://github.com/DeboraEngelmann/ontology_access_example
+    conferencia: 
+- titulo: Floods domain
+  status: done
+  palavras-chaves: Planning
+  descricao: In the Floods domain, a team of autonomous robots are dispatched to monitor flooding activity and execute search and rescue operations within a geographical region. We provide HTN and PDDL descriptions of the Floods domain, a domain with heterogeneous agents and multiple types of goals.
+  tecnologias: 
+  grupos: smart
+  links: 
+    git: https://github.com/smart-pucrs/floods-domain
+    conferencia: 
+- titulo: Onto2Jacamo
+  status: done
+  palavras-chaves: Ontology, MAS
+  descricao: We propose an ontology that groups all the concepts related to development of a MAS in the JaCaMo platform. From this abstract view of MAS concepts and relationships, the user may instantiate the domain problem, which will help to organise and design the MAS system.
+  tecnologias: Eclipse
+  grupos: smart
+  links: 
+    download: http://www.inf.pucrs.br/linatural/wordpress/index.php/recursos-e-ferramentas/ontomas/
+    conferencia: 
+- titulo: Actor and agent-based benchmarks
+  status: done
+  palavras-chaves: Programming, MAS, Benchmark
+  descricao: In this project, we compare some aspects of two concurrency models, Actors and Agents, using benchmarks to evaluate communication performance, performance in the presence of bottleneck and synchronization problems, and reactivity and fairness of the models. We use Jason, Jack, 2APL, and GOAL as agent-oriented programming languages and Erlang, Scala Actors, Akka, and ActorFoundry as the actor-oriented programming languages.
+  tecnologias: 
+  grupos: smart
+  links: 
+    git: https://github.com/smart-pucrs/actor-agent-benchmarks
+    conferencia: 
+- titulo: Multi-Agent Programming Contest
+  status: done
+  palavras-chaves: Programming, MAS
+  descricao: Our group participated in the MAPC, obtaining first place in 2016, fourth place in 2017 and second place in 2018.
+  tecnologias: JaCaMo
+  grupos: smart
+  links: 
+    git: https://github.com/smart-pucrs/mapc2016-pucrs
+    git_2: https://github.com/smart-pucrs/mapc2017-pucrs
+    git_3: https://github.com/smart-pucrs/mapc2018-pucrs
     conferencia: 

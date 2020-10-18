@@ -42,7 +42,7 @@ layout: default
       </div>
       {% assign projects = "" | split: "" %}
       {% for project in site.data.projetos_list %}
-        {% assign projects = projects | push: project[1] %}
+        {% assign projects = projects | push: project %}
       {% endfor %}
 
       {% assign projects = projects | sort: "titulo" %}
