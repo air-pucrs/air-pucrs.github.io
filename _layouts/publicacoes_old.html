@@ -26,13 +26,40 @@ layout: default
               {% for group in site.data.grupos_list %}
                 {% capture grupo_name %}{{ group | first }}{% endcapture %}
                 {% assign grupo = site.data.grupos_list[grupo_name] %}
-                <input type="checkbox" name="groups" value="{{grupo_name}}" class="filter">{{ grupo.abreviacao }}      
+                <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">{{ grupo.abreviacao }}      
               {% endfor %}              
           </fieldset> 
-        </div>        
-        <script type="text/javascript"> $.noConflict() </script>
-        <!-- <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=year&folding=1&nocache=1&filter=comment:(.*?(npl))"></script> -->
-        <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=year&folding=1&nocache=1"></script>
+        </div>
+        <div class="column">
+          <fieldset class="rows">      
+              <legend>Data</legend>
+                <input type="date" name="date" class="row filter">           
+          </fieldset> 
+        </div>
+      </div>
+      {% assign publications = "" | split: "" %}
+      {% for publication in site.data.publicacoes_list %}
+        {% assign publications = publications | push: publication[1] %}
+      {% endfor %}
+
+      {% assign publications = publications | sort: "titulo" %}
+
+      {% for publication in publications %}
+      {% assign publicacao = publication %}
+        {% include publicacao-card.html %}
+      {% endfor %}
+      <div class="column col-12 filter-card-empty" data-groups="none" style="display: none;">
+        <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+          <div class="card-body">
+            <div class="columns col-x-align">
+              <div class="column col-sm-12">
+                <div class="ml-2">
+                  <span class="text-dark mb-0">Nenhuma Publicação encontrado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -47,7 +74,7 @@ layout: default
 
     for(filter of filters){
       var checked = ''
-      $('input[name="groups"]:checked').each(function(){
+      $('input[name="'+filter+'"]:checked, input[type="date"][name="'+filter+'"]').each(function(){
         checked += $(this).val()+', '
       })
       checked = checked.trim().slice(0, -1)
@@ -56,8 +83,8 @@ layout: default
       }
     }
 
-    // $("div.filter-card:not("+query+")").hide()
-    // $("div.filter-card"+query).show()
+    $("div.filter-card:not("+query+")").hide()
+    $("div.filter-card"+query).show()
 
     if($('div.filter-card:visible').length == 0){
       $('div.filter-card-empty')[0].style.display = ''
