@@ -1,7 +1,6 @@
 #This file defines all the members
 
-breather1: #id identificador do integrante
-  nome: Avner #nome
+- nome: Avner #nome
   sobrenome: Dal Bosco #sobrenome
   grupos: nlp, health-ai #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   posicao: MsC Student #posição
@@ -19,9 +18,7 @@ breather1: #id identificador do integrante
   formacao: Technologist in Internet Systems
   origem: Passo Fundo - RS #origem
   nascimento: 28/08/1993 #nascimento
-
-breather2:
-  nome: Renata
+- nome: Renata
   sobrenome: Vieira
   grupos: nlp, health-ai, smart
   posicao: Associate Professor
@@ -39,8 +36,7 @@ breather2:
   origem: Porto Alegre - RS 
   nascimento: 01/09/1993
 
-breather3:
-  nome: Rafael
+- nome: Rafael
   sobrenome: H. Bordini
   grupos: nlp, health-ai, smart
   posicao: Associate Professor
@@ -59,8 +55,7 @@ breather3:
   origem: 
   nascimento: 
 
-breather5:
-  nome: Tabajara 
+- nome: Tabajara 
   sobrenome: Krausburg
   grupos: smart
   posicao: PhD Student
@@ -82,85 +77,76 @@ breather5:
   origem: Caxias do Sul, Brazil
   nascimento: 
 
-breather6:
-    nome: Alison
-    sobrenome: Panisson
-    grupos: smart
-    posicao: Post-Doctoral Researcher
-    nivel: pos-doc
-    foto: assets/logo-AIR.png
-    email: alison.panisson@acad.pucrs.br
-    redes-sociais:
-      lattes: http://lattes.cnpq.br/8825252769988113
+- nome: Alison
+  sobrenome: Panisson
+  grupos: smart
+  posicao: Post-Doctoral Researcher
+  nivel: pos-doc
+  foto: assets/logo-AIR.png
+  email: alison.panisson@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/8825252769988113
+- nome: Juliana 
+  sobrenome: Damasio
+  grupos: health-ai, smart
+  posicao: PhD Student
+  nivel: doc
+  foto: assets/logo-AIR.png
+  email: juliana.damasio@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/8969323487877188
 
-breather7:
-    nome: Juliana 
-    sobrenome: Damasio
-    grupos: health-ai, smart
-    posicao: PhD Student
-    nivel: doc
-    foto: assets/logo-AIR.png
-    email: juliana.damasio@acad.pucrs.br
-    redes-sociais:
-      lattes: http://lattes.cnpq.br/8969323487877188
+- nome: Henrique 
+  sobrenome: Dias
+  grupos: nlp, health-ai
+  posicao: PhD Student
+  nivel: doc
+  foto: assets/logo-AIR.png
+  email: henrique.santos.003@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/3339071169068613
 
-breather8:
-    nome: Henrique 
-    sobrenome: Dias
-    grupos: nlp, health-ai
-    posicao: PhD Student
-    nivel: doc
-    foto: assets/logo-AIR.png
-    email: henrique.santos.003@acad.pucrs.br
-    redes-sociais:
-      lattes: http://lattes.cnpq.br/3339071169068613
+- nome: Débora 
+  sobrenome: Engelmann
+  grupos: health-ai, smart
+  posicao: PhD Student
+  nivel: doc
+  foto: assets/logo-AIR.png
+  email: debora.engelmann@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/0774052060467864
 
-breather9:
-    nome: Débora 
-    sobrenome: Engelmann
-    grupos: health-ai, smart
-    posicao: PhD Student
-    nivel: doc
-    foto: assets/logo-AIR.png
-    email: debora.engelmann@acad.pucrs.br
-    redes-sociais:
-      lattes: http://lattes.cnpq.br/0774052060467864
+- nome: Janete 
+  sobrenome: Urbanetto
+  grupos: health-ai
+  posicao: Associate Professor
+  nivel: doc
+  foto: assets/logo-AIR.png
+  email: jurbanetto@pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/8935137454685552
 
-breather10:
-    nome: Janete 
-    sobrenome: Urbanetto
-    grupos: health-ai
-    posicao: Associate Professor
-    nivel: doc
-    foto: assets/logo-AIR.png
-    email: jurbanetto@pucrs.br
-    redes-sociais:
-      lattes: http://lattes.cnpq.br/8935137454685552
+- nome: Amanda
+  sobrenome: Pestana
+  grupos: health-ai
+  posicao: MsC Student
+  nivel: msc
+  foto: assets/logo-AIR.png
+  email: amanda.pestana@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/7892612003826611
 
-breather11:
-    nome: Amanda
-    sobrenome: Pestana
-    grupos: health-ai
-    posicao: MsC Student
-    nivel: msc
-    foto: assets/logo-AIR.png
-    email: amanda.pestana@acad.pucrs.br
-    redes-sociais:
-      lattes: http://lattes.cnpq.br/7892612003826611
+- nome: Joaquim
+  sobrenome: Santos
+  grupos: nlp
+  posicao: PhD Student
+  nivel: doc
+  foto: assets/logo-AIR.png
+  email: joaquim.santos@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/6511667784239144
 
-breather12:
-    nome: Joaquim
-    sobrenome: Santos
-    grupos: nlp
-    posicao: PhD Student
-    nivel: doc
-    foto: assets/logo-AIR.png
-    email: joaquim.santos@acad.pucrs.br
-    redes-sociais:
-      lattes: http://lattes.cnpq.br/6511667784239144
-
-breather13:
-  nome: Mateus  
+- nome: Mateus  
   sobrenome: da Silveira Colissi
   grupos: smart
   posicao: MsC Student
@@ -182,8 +168,7 @@ breather13:
   origem: Santa Maria, Brazil
   nascimento: 
 
-breather14:
-  nome: Davi
+- nome: Davi
   sobrenome: Kniest da Silva
   grupos: smart
   posicao: Undergraduate Research Trainee
@@ -205,8 +190,7 @@ breather14:
   origem: Porto Alegre, Brazil
   nascimento: 
 
-breather15:
-  nome: Eric 
+- nome: Eric 
   sobrenome: Carlotto
   grupos: smart
   posicao: Undergraduate Research Trainee
@@ -228,8 +212,7 @@ breather15:
   origem: Porto Alegre - Brazil
   nascimento: 
 
-breather16:
-  nome: Lucca
+- nome: Lucca
   sobrenome: Dornelles Cezar
   grupos: smart
   posicao: Undergraduate Research Trainee
@@ -251,8 +234,7 @@ breather16:
   origem: Porto Alegre, Brazil
   nascimento: 
 
-breather17:
-  nome: João Gabriel
+- nome: João Gabriel
   sobrenome: Dourado Cervo
   grupos: smart
   posicao: Undergraduate Research Trainee
@@ -274,8 +256,7 @@ breather17:
   origem: São Borja, Brazil
   nascimento: 
 
-breather18:
-  nome: Samuel
+- nome: Samuel
   sobrenome: Pavanati Nascimento
   grupos: smart
   posicao: Undergraduate Research Trainee

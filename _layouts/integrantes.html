@@ -42,7 +42,7 @@ layout: default
       </div>
       {% assign members = "" | split: "" %}
       {% for member in site.data.integrantes_list %}
-        {% assign members = members | push: member[1] %}
+        {% assign members = members | push: member %}
       {% endfor %}
 
       {% assign members = members | sort: "nome" %}
