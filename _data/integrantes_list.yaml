@@ -2,7 +2,7 @@
 
 - nome: Avner #nome
   sobrenome: Dal Bosco #sobrenome
-  grupos: nlp, health-ai #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  grupos: nlp #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   posicao: MsC Student #posição
   nivel: msc #nível (utilizar msc para mestre|mestrando, doc para doutor|doutorando, pos-doc para pos-doutor)
   foto: assets/logo-AIR.png #caminho para a foto 
@@ -276,4 +276,26 @@
   sobre: 
   formacao: 
   origem: Porto Alegre, Brazil
+  nascimento:
+
+  nome: Bernardo
+  sobrenome: Scapini Consoli
+  grupos: nlp
+  posicao: MsC Student
+  nivel: msc
+  foto: assets/logo-AIR.png
+  email: bernardo.consoli@acad.pucrs.br
+  redes-sociais:
+    facebook: 
+    insta: 
+    linkedin: 
+    lattes: 
+    site: 
+    dblp: 
+    orcid: 
+    github: 
+    twitter: 
+  sobre: 
+  formacao: 
+  origem: 
   nascimento: 
