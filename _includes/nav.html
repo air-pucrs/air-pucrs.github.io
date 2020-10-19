@@ -51,36 +51,34 @@
 <div id="modal-menu" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-body">
-      <ul class="">
-        <li class="dropdown mx-4">
-          <a href="{{ site.baseurl }}/" class="dropdown-toggle nav-links" style="color:white">Grupos</a>
-          <ul class="menu">
-            {% for group in site.data.grupos_list %}
-            {% capture grupo_name %}{{ group | first }}{% endcapture %}
-            {% assign grupo = site.data.grupos_list[grupo_name] %}
-              <li>
-                <a href="{{ site.baseurl }}/grupo-{{grupo.link}}" class="dropdown-link">{{grupo.abreviacao}}</a>
-              </li>
-            {% endfor %} 
-          </ul>
-        </li>
+  <div class="modal-content" style="background-color: none">
+    <ul class="menu">
+      <li class="dropdown mx-4">
+        <a href="{{ site.baseurl }}/" class="dropdown-toggle nav-links" style="color:white">Grupos</a>
+        <ul class="menu" style="background-color: none">
+          {% for group in site.data.grupos_list %}
+          {% capture grupo_name %}{{ group | first }}{% endcapture %}
+          {% assign grupo = site.data.grupos_list[grupo_name] %}
+            <li>
+              <a href="{{ site.baseurl }}/grupo-{{grupo.link}}" class="dropdown-link">{{grupo.abreviacao}}</a>
+            </li>
+          {% endfor %} 
+        </ul>
+      </li>
 
-        <li class="mx-4">
-          <a class="nav-links" href="{{ site.baseurl }}/novidades">Novidades</a>
-        </li>
-        <li class="mx-4">
-          <a  class="nav-links" href="{{ site.baseurl }}/integrantes">Integrantes</a>
-        </li>
-        <li class="mx-4">
-          <a  class="nav-links" href="{{ site.baseurl }}/projetos">Projetos</a>
-        </li>
-        <li class="mx-4">
-          <a  class="nav-links" href="{{ site.baseurl }}/publicacoes">Publicações</a>
-        </li>
-      </ul>
-    </div>
+      <li class="mx-4">
+        <a class="nav-links" href="{{ site.baseurl }}/novidades">Novidades</a>
+      </li>
+      <li class="mx-4">
+        <a  class="nav-links" href="{{ site.baseurl }}/integrantes">Integrantes</a>
+      </li>
+      <li class="mx-4">
+        <a  class="nav-links" href="{{ site.baseurl }}/projetos">Projetos</a>
+      </li>
+      <li class="mx-4">
+        <a  class="nav-links" href="{{ site.baseurl }}/publicacoes">Publicações</a>
+      </li>
+    </ul>
   </div>
 
 </div>
