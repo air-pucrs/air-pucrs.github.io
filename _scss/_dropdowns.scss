@@ -2,13 +2,18 @@
 .dropdown {
   display: inline-block;
   position: relative;
+
   .dropdown-toggle {
     color: $dark-color;
     border-bottom: 2px solid transparent;
     font-weight: 700;
+    width: 100%;
+    
     &.dropdown-link {
       color: $white;
       border-bottom: none;
+      width: 100%;
+
       &:hover {
         border-bottom: none;
         color: $error;
@@ -18,20 +23,30 @@
 
   .menu {
     animation: slide-down .15s ease 1;
+    padding: 12px 0;
     display: none;
-    margin-top: -5px;
-    left: 0;
     max-height: 50vh;
     overflow-y: auto;
+    margin-left: -60px;
     position: absolute;
-    top: 100%;
+    top: 85%;
+    background: $white;
+
+    
     li {
       margin: 0;
+      width: 100%;
     }
+    
+    li:hover {
+      background: #FE5E33;
+
+      a {
+        color: #fffffe;
+      }
+   }
+
     a {
-      border: none;
-    }
-    a:hover {
       border: none;
     }
   }

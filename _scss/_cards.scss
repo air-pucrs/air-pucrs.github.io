@@ -24,6 +24,8 @@
   flex-direction: column;
   box-shadow: $light-shadow;
   margin: 10px 0;
+  height: 27.5rem;
+
   &.card-hover {
     display: block;
     top: 0px;
@@ -33,6 +35,7 @@
     overflow: hidden;
     border: 1px solid $border-color;
     transition: all 0.2s ease;
+
     &:hover {
       cursor: pointer;
       box-shadow: $hover-shadow;
@@ -40,6 +43,7 @@
       border: 1px solid $error;
       background-color: white;
     }
+
     &.active-notifications {
       padding-bottom: 18px;
       &:before {
@@ -63,6 +67,7 @@
       transform: scale(2.15);
     }
   }
+
   .card-header,
   .card-body,
   .card-footer {
@@ -80,12 +85,18 @@
       display: flex;
       align-items: center;
     }
+    
+    img {
+      height: 100%;
+      max-height: 12.5rem;
+      width: 100%;
+    }
   }
 
   .card-image {
     padding-top: $layout-spacing-lg;
     position: relative;
-
+  
     &:first-child {
       padding-top: 0;
 
@@ -101,6 +112,7 @@
         border-bottom-right-radius: $border-radius;
       }
     }
+
     & .img-overlay {
       &.top-right {
         position: absolute;

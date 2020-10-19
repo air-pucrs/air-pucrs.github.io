@@ -22,6 +22,7 @@
     <li class="dropdown mx-4">
       <a href="{{ site.baseurl }}/" class="dropdown-toggle nav-links" style="color:white">Grupos</a>
       <ul class="menu">
+        <div class="arrow"></div>
         {% for group in site.data.grupos_list %}
         {% capture grupo_name %}{{ group | first }}{% endcapture %}
         {% assign grupo = site.data.grupos_list[grupo_name] %}

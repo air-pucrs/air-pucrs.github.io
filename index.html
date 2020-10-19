@@ -9,7 +9,7 @@ title: Home
       <div class="container grid-xl">
         <div class="columns negative-m-s">
           <div class="column col-12 text-center">
-            <h6 class="text-secondary">Conheça os nossoss grupos de pesquisa:</h6>
+            <h6 class="text-secondary">Conheça os nossos grupos de pesquisa:</h6>
           </div>
           
           {% for group in site.data.grupos_list %}
@@ -19,7 +19,7 @@ title: Home
             <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">
               <div class="card card-link">
                 <div class="card-body text-center my-4">                 
-                  <img src="/{{grupo.logo}}" style="max-width: 100%">                  
+                  <img src="/{{grupo.logo}}">                  
                 </div>
                 <div class="card-body text-center my-4">
                   <h5 class="text-bold">{{ grupo.nome }} ({{ grupo.abreviacao }})</h5>             
