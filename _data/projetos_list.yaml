@@ -133,7 +133,7 @@
 - titulo: 'NALAMAS' 
   status: concluído 
   palavras-chaves:  #palavras chaves separadas por ,
-  descricao: ''
+  descricao: 'O projeto NALAMAS investigou a interpretação de textos em linguagem natural através do uso de sistemas multi-agentes. Foi iniciado em 01/09/1996 e finalizado em 30/11/1998, obtendo resultados que contribuem na elaboração de um modelo de processamento da linguagem natural usando sistemas multi-agentes. Os trabalhos desenvolvidos enfocam o tratamento de fenômenos lingüísticos e estruturais da linguagem natural de modo geral, e da língua portuguesa em particular. O projeto NALAMAS é multi-institucional e congrega 05 instituições nacionais – PUCRS, UFRGS, UFSC, UNICAMP e USP – e uma intituição portuguesa, a Universidade Nova de Lisbôa. A coordenação geral está a cargo da Profa. Dra. Vera Lúcia Strube de Lima, da PUCRS'
   tecnologias:  #tecnologias utilziadas separadas por ,
   grupos: nlp #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   links: 
