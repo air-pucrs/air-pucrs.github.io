@@ -5,8 +5,8 @@ layout: default
 
 <div class="container-full">
   <div class="container grid-xl">
-    <div class="mt-12 show-md"></div>
-    <div class="mt-8"></div>
+    <div class="mt-14 show-md"></div>
+    <div class="mt-16"></div>
     <div class="columns negative-m-xl">
       <div class="column col-12">
         <ul class="breadcrumb">
@@ -14,25 +14,15 @@ layout: default
             <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
           </li>
           <li class="breadcrumb-item">
-            <a href="#">Publicações</a>
+            <a href="#">Publications</a>
           </li>
         </ul>
-        <h2 class="text-light text-bold">Publicações</h2>
-        <p class="text-light mb-2">Todos os trabalhos publicados pelo AIR</p>
-        <p class="text-light mb-2">Filtre Por:</p>
-        <div class="column">
-          <fieldset class="rows">      
-              <legend>Grupos</legend>
-              {% for group in site.data.grupos_list %}
-                {% capture grupo_name %}{{ group | first }}{% endcapture %}
-                {% assign grupo = site.data.grupos_list[grupo_name] %}
-                <input type="checkbox" name="groups" value="{{grupo_name}}" class="filter">{{ grupo.abreviacao }}      
-              {% endfor %}              
-          </fieldset> 
-        </div>        
-        <script type="text/javascript"> $.noConflict() </script>
-        <!-- <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=year&folding=1&nocache=1&filter=comment:(.*?(npl))"></script> -->
-        <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=year&folding=1&nocache=1"></script>
+        <h2 class="text-light text-bold">Publications</h2>
+        <div id="pub">
+          <script type="text/javascript"> $.noConflict() </script>
+          <!-- <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=year&folding=1&nocache=1&filter=comment:(.*?(npl))"></script> -->
+          <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=comment&group1=year&folding=1&nocache=1"></script>          
+        </div> 
       </div>
     </div>
   </div>
