@@ -24,11 +24,11 @@
   flex-direction: column;
   box-shadow: $light-shadow;
   margin: 10px 0;
-  height: 27.5rem;
+  max-height: 27.5rem;
+
 
   &.card-hover {
     display: block;
-    top: 0px;
     position: relative;
     text-decoration: none;
     z-index: 0;
@@ -39,7 +39,7 @@
     &:hover {
       cursor: pointer;
       box-shadow: $hover-shadow;
-      top: -4px;
+      transform: translate(-4);
       border: 1px solid $error;
       background-color: white;
     }
@@ -93,6 +93,26 @@
     }
   }
 
+  .tag-container {
+    display: flex;
+    flex-direction: row;
+    width: 10px;
+    align-items: center;
+  }
+
+  .tag-content {
+    display: block;
+  }
+
+  .tag-container .tag {
+    display: inline-block;
+    background: #ccc;
+    color: rgba(0, 0, 0, .7);
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin: 5px !important;
+  }
+
   .card-image {
     padding-top: $layout-spacing-lg;
     position: relative;
@@ -121,4 +141,8 @@
       }
     }
   }
+}
+
+.group-card {
+  height: 27.5rem !important;
 }

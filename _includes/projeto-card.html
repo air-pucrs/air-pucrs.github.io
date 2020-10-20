@@ -11,14 +11,16 @@
         <div class="column col-sm-12">
           <span class="text-semibold m-0">{{ projeto.status }}</span>
         </div>
-        <div class="column col-sm-12">
+        <div class="column col-sm-12 tag-container">
+          <div class="tag-content">
           {% for g in grupos %}
             {% assign gs = g | strip %}
             {% assign grupo = site.data.grupos_list[gs] %}
             <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
-              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+              <span class="text-semibold m-0 tag">{{ grupo.abreviacao }}</span>
             </a>
           {% endfor %}
+         </div>
         </div>
         <div class="column col-sm-12">
           {% assign pchaves = projeto.palavras-chaves | split: "," %}

@@ -25,14 +25,16 @@
         <div class="column col-sm-12">
           <span class="text-semibold m-0">{{ integrante.nivel }}</span>
         </div>
-        <div class="column col-sm-12">
+        <div class="column col-sm-12 tag-container">
+          <div class="tag-content">
           {% for g in grupos %}
             {% assign gs = g | strip %}
             {% assign grupo = site.data.grupos_list[gs] %}
             <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
-              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+              <span class="text-semibold m-0 tag">{{ grupo.abreviacao }}</span>
             </a>
           {% endfor %}
+        </div>
         </div>
         <div class="column col-sm-12">
           <button href="#modal-{{integrante.nome | slugify}}" style="height: auto;" class="btn btn-members btn-lg btn-outline py-2 open-modal">+info</button>
