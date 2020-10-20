@@ -6,7 +6,7 @@ nlp: #utilizado para identificar os dados desse grupo
   descricao: O laboratório de Processamento de Linguagem Natural da PUCRS desenvolve pesquisas relacionadas à computação semântica e ao tratamento semântico de língua natural, envolvendo processamento linguístico para extração de informações, engenharia de conhecimento baseada em corpus e pesquisa sobre diversos  aspectos do desenvolvimento e aplicações de ontologias. #descrição do grupo
   resumo: Natural Language Processing Research Group at PUCRS #descrição resumida do grupo
   link: nlp #slug que vai aparecer na url, ex: www.site.com/pln
-  logo: assets/PLN-logo.png #endereço da imagem da log
+  logo: assets/pln/PLN-logo.png #endereço da imagem da log
   temas-de-pesquisa: Extração de Informação, Reconhecimento de Entidades Nomeadas, Ontologias, Aprendizado de Ontologias, Extração de Termos e Conceitos, Extração de Relações Semânticas, Geração de Recursos Lexicais, Geração de Tesauros, População de Ontologias, Mineração de Opinião, Tecnologias Semânticas, Sistemas Multiagentes #temas de pesquisa separados por ,
   areas-de-atuacao: 'Interpretação de textos: resolução de correferência e análise de sentimentos, Interação em Linguagem Natural: chatter bots, Organizações: reconhecimento de menções à organizações e seus relacionamentos com locais e pessoas, Geologia: reconhecimento de menções e entidades geológicas em textos, Gestão do Conhecimento: alinhamento de ontologias e visualização de alinhamentos, Engenharia de Software: uso de ontologias em modelagem de sistemas' #areas de atuação separados por ,
   #id dos integrantes (seguir os registros do arquivo integrantes-list) separados por ,
