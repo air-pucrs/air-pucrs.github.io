@@ -5,7 +5,7 @@
   grupos: nlp #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   posicao: MsC Student #posição
   nivel: msc #nível (utilizar msc para mestre|mestrando, doc para doutor|doutorando, pos-doc para pos-doutor)
-  foto: assets/logo-AIR.png #caminho para a foto 
+  foto: assets/logo-dummy.png #caminho para a foto 
   email: avnerdalbosco@gmail.com # e-mail
   redes-sociais: #redes sociais
     facebook: avner.bosco
@@ -23,7 +23,7 @@
   grupos: nlp, health-ai, smart
   posicao: Associate Professor
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: renata.vieira@gmail.com
   redes-sociais:
     facebook: renata.vieira
@@ -41,7 +41,7 @@
   grupos: nlp, health-ai, smart
   posicao: Associate Professor
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: renata.vieira@gmail.com
   redes-sociais:
     facebook: 
@@ -82,7 +82,7 @@
   grupos: smart
   posicao: Post-Doctoral Researcher
   nivel: pos-doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: alison.panisson@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/8825252769988113
@@ -91,7 +91,7 @@
   grupos: health-ai, smart
   posicao: PhD Student
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: juliana.damasio@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/8969323487877188
@@ -101,7 +101,7 @@
   grupos: nlp, health-ai
   posicao: PhD Student
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: henrique.santos.003@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/3339071169068613
@@ -111,7 +111,7 @@
   grupos: health-ai, smart
   posicao: PhD Student
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: debora.engelmann@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/0774052060467864
@@ -121,7 +121,7 @@
   grupos: health-ai
   posicao: Associate Professor
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: jurbanetto@pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/8935137454685552
@@ -131,7 +131,7 @@
   grupos: health-ai
   posicao: MsC Student
   nivel: msc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: amanda.pestana@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/7892612003826611
@@ -141,7 +141,7 @@
   grupos: nlp
   posicao: PhD Student
   nivel: doc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: joaquim.santos@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/6511667784239144
@@ -283,7 +283,7 @@
   grupos: nlp
   posicao: MsC Student
   nivel: msc
-  foto: assets/logo-AIR.png
+  foto: assets/logo-dummy.png
   email: bernardo.consoli@acad.pucrs.br
   redes-sociais:
     facebook: 
