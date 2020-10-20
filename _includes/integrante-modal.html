@@ -6,20 +6,18 @@
 
       <div class="columns col-x-align">
         <div class="column col-auto">
-          <div class="row">            
-            <div class="flex-vertical-center">
-              <figure class="avatar d-inline-block hide-sm" style="align-items: center;">
-                <img  src="{{ site.baseurl }}/{{ integrante.foto}}" alt="...">
-              </figure>
-              <div class="ml-2">
-                <span class="mb-0">{{ integrante.nome }} {{integrante.sobrenome}}</span>
-              </div>
+          <div class="flex-vertical-center">
+            <figure class="avatar d-inline-block hide-sm" style="align-items: center; height: 5rem; width: 5rem">
+              <img  src="{{ site.baseurl }}/{{ integrante.foto}}" alt="...">
+            </figure>
+            <div class="ml-2">
+              <span class="mb-0">{{ integrante.nome }} {{integrante.sobrenome}}</span>
+            </div>
+            <div class="ml-2">
+              <span class="mb-0">E-mail: {{integrante.email}}</span>
             </div>
           </div>
         </div>
-        <div class="column col-auto">
-          E-mail: {{integrante.email}}          
-        </div> 
         <div class="column">
           <span class="close">×</span>
         </div>
