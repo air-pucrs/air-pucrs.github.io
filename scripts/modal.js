@@ -3,7 +3,7 @@ const modals = document.querySelectorAll('.modal');
 
 // Get the button that opens the modal and adds the onClick event for all buttons */
 document.querySelectorAll('.open-modal').forEach(btn => {
-    btn.addEventListener('click', e => handleOpenModal(e));
+  btn.addEventListener('click', e => handleOpenModal(e));
 });
 
 // Get the <span> element that closes the modal
@@ -21,9 +21,9 @@ window.onclick = (e) => {
 
 function handleOpenModal(e) {
   console.log(e);
-    e.preventDefault();
-    modal = document.querySelector(e.target.getAttribute("href"));
-    modal.style.display = "block";
+  e.preventDefault();
+  modal = document.querySelector(e.target.getAttribute("href"));
+  modal.style.display = "block";
 }
 
 function handleCloseModal(e) {
