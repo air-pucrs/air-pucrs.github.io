@@ -48,7 +48,7 @@ layout: default
       {% assign projects_status = projects | group_by: "status" %}
       {% assign projects_status_sorted = projects_status | sort %}
 
-      {%projects_status_sorted%}
+      {{ projects_status_sorted }}
 
       {% for ps in projects_status_sorted %}
       {% assign projetos = ps.items | sort: "titulo" %}
