@@ -45,7 +45,8 @@ layout: default
         {% assign projects = projects | push: project %}
       {% endfor %}
 
-      {% assign projects = projects | sort: "titulo", "status" %}
+      {% assign status = projects | group_by: "status" %}
+      {% assign projects = status | sort: "titulo" %}
 
       {% for project in projects %}
       {% assign projeto = project %}
