@@ -45,15 +45,12 @@ layout: default
         {% assign projects = projects | push: project %}
       {% endfor %}
 
-      {% assign projects_status = projects | group_by: "status" %}
-      {% assign projects_status_sorted = projects_status | sort %}
+      {% assign projects = projects | sort: "titulo" %}
 
-      {% for ps in projects_status_sorted %}
-        {% assign projetos = ps.items | sort: "titulo" %}
-        {% for projeto in projetos %}
-          {% include projeto-card.html %}
-          {% include projeto-modal.html %}
-        {% endfor %}
+      {% for project in projects %}
+      {% assign projeto = project %}
+        {% include projeto-card.html %}
+        {% include projeto-modal.html %}
       {% endfor %}
       <div class="column col-12 filter-card-empty" data-groups="none" style="display: none;">
         <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
