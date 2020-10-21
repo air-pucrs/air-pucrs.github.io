@@ -1,7 +1,7 @@
 #Tihs file defines all projects 
 
 - titulo: 'Linguagem Natural e Ontologias: Construção, População e Alinhamento.'  #titulo
-  status: ativo #status de andamento
+  status: active #status de andamento
   palavras-chaves: pln, ontologias #palavras chaves separadas por ,
   descricao: 'O projeto investiga as tarefas de construção, população e alinhamento de ontologias. Os objetivos são: (a) confrontar e desenvolver diferentes abordagens nas áreas de aquisição, integração e manipulação de conhecimento representado em ontologias; e (b) considerar o aspecto multilíngue (Francês, Português, Inglês) através destas tarefas.Os objetivos específicos do projeto envolvem diferentes facetas do processo de construção de ontologias, como segue:<br/>– desenvolver métodos de reconhecimento de entidades nomeadas e da identificação da presença de relações entre elas em fontes textuais;<br/>– desenvolver abordagens de extração de relações hierárquicas e não hierárquicas e considerando a resolução de correferência;<br/>– propor uma abordagem de alinhamento de ontologias capaz de lidar com ontologias em diferentes línguas e com níveis de expressividade variados (ontologias de domínios e ontologias de topo).' #descricao do projeto
   tecnologias: ontologias #tecnologias utilziadas separadas por ,
@@ -11,7 +11,7 @@
     conferencia:
 
 - titulo: 'Extração de informação e definição de perfis a partir de corpora – DOC FIX.' #titulo
-  status: ativo #status de andamento
+  status: active #status de andamento
   palavras-chaves: pln #palavras chaves separadas por ,
   descricao: 'Esse projeto situa-se na área de Processamento de Linguagem Natural (PLN) propondo métodos e técnicas para extrair informação textual. A aplicação principal será o processamento de diversos corpora de domínio e possibilitar a análise de características (perfis) dos domínios representados pelos corpora. Dessa forma, esse projeto terá contribuições científicas nas áreas de extração de informação, linguística computacional e mineração de textos.' #descricao do projeto
   tecnologias: #tecnologias utilziadas separadas por ,
@@ -21,7 +21,7 @@
     conferencia: 
 
 - titulo: 'OntoLPPortal de Ontologias' #titulo
-  status: concluído #status de andamento
+  status: done #status de andamento
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'Este portal se propõe a divulgar ontologias disponíveis na língua portuguesa (incluindo desde bases terminológicas, vocabulários controlados, até ontologias mais complexas do tipo OWL-DL), bem como ferramentas e recursos relacionados à pesquisa na área.' #descricao do projeto
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -31,7 +31,7 @@
     conferencia:
 
 - titulo: 'O Efeito do Processamento da Linguagem Natural no Desenvolvimento da Capacidade do Brasil no Mercado Global de Desenvolvimento de Software' #titulo
-  status: concluído #status de andamento
+  status: done #status de andamento
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'Este projeto tem como objetivo principal a condução de estudos experimentais para explorar o quanto o processamento da linguagem natural podem contribuir para a evolução da capacidade do Brasil no mercado global de desenvolvimento de software. Pretende-se realizar pesquisas científicas a fim de apoiar a avaliação da prática das equipes distribuídas de desenvolvimento de software quando elas não dominam um idioma em comum, através de serviços de tradução simultânea. Com isso, visa-se contribuir para a contextualização do Brasil no cenário de desenvolvimento global de software, com qualidade, caracterizando-o como potencial candidato a receber investimentos de projetos offshore com organizações internacionais, mesmo que seus profissionais não sejam fluentes em um idioma universal, tal como o inglês. Pretende-se responder a seguinte questão de pesquisa: de que forma pode-se melhor usar serviços de processamento da linguagem natural, durante reuniões de equipes distribuídas? Em termos práticos estaremos avaliando em particular os serviços de tradução simultânea, em equipes distribuídas que falam diferentes idiomas, com auxílio de vocabulários controlados. A pesquisa em vocabulários controlados oferece também vários desafios para a área de PLN pois envolve a identificação de termos, o mapeamento de termos, identificação de termos similares, organização hierárquica de termos, alinhamento bilíngüe, e desambiguação.' #descricao do projeto
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -41,7 +41,7 @@
     conferencia:  
 
 - titulo: 'CAPES e COFECUB – CAMALEON' #titulo
-  status: concluído #status de andamento
+  status: done #status de andamento
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: '' #descricao do projeto
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -51,7 +51,7 @@
     conferencia:
 
 - titulo: 'SeaTeaMS – Semantic Technologies and Multi-Agent Systems for Team Interaction' #titulo
-  status: concluído #status de andamento
+  status: done #status de andamento
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'This project aims to use semantic and multi-agent techniques to create a programming framework and software toolkit supporting the development of applications that mediate the interactions in groups of people.' #descricao do projeto
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -61,7 +61,7 @@
     conferencia:
 
 - titulo: 'Contexto' #titulo
-  status: concluído #status de andamento
+  status: done #status de andamento
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'O objetivo principal do Projeto Contexto é investigar a questão da incorporação do contexto à representação e interpretação da linguagem natural. <br/>  <br/>Como objetivos específicos do Projeto Contexto, foram estabelecidos:<br/>  <ul><br/>    <li>Estudo do contexto como contexto local (sentencial);</li><br/>    <li>Estudo do contexto como elemento da coerência lingüística (contexto no discurso);</li><br/>    <li>Modelagem e representação computacional do contexto ;</li><br/>    <li>Prototipação (contexto no PLN).</li><br/>  </ul><br/>  <br><br/>  Podemos ainda considerar como objetivos:<br/>  <ul><br/>    <li>Formação;<br/>    <li>Disseminação de resultados.<br/>  </ul>'
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -71,7 +71,7 @@
     conferencia: 
 
 - titulo: 'FUNDAÇÕES' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: '<ul><br/><li>Intensificar a realização de trabalho conjunto entre as equipes do IIPUCRS, DI/FCT/UNL, DI/FCUL e DMat/UE nas áreas de Processamento da Língua Natural, especificamente do português, e de Multi-Agentes, utilizando o projeto brasileiro NALAMAS e os projetos portugueses DIXIT, CORPUS e JUSTIÇA como motores para a cooperação.</li><br/></ul>' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -81,9 +81,9 @@
     conferencia:  
 
 - titulo: 'LEXIS' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
-  descricao: 'O objetivo principal do Projeto LEXIS (início: 1991; término: 1997) foi criar um ambiente de tratamento automatizado permitindo o desenvolvimento de aplicações pelos mais diversos segmentos da pesquisa e do mercado de usuários potenciais do português, entre os quais a pesquisa documentária, a correção e a geração de textos, tradução automática e interrogação de bases de dados em linguagem natural. Como objetivos específicos do Projeto LEXIS, foram estabelecidos:<ul><br/><li>a construção de um dicionário eletrônico para um subconjunto significativo da língua portuguesa;</li><br/></ul>' 
+  descricao: 'O objetivo principal do Projeto LEXIS (início: 1991; término: 1997) foi criar um ambiente de tratamento automatizado permitindo o desenvolvimento de aplicações pelos mais diversos segmentos da pesquisa e do mercado de usuários potenciais do português, entre os quais a pesquisa documentária, a correção e a geração de textos, tradução automática e interrogação de bases de dados em linguagem natural. Como objetivos específicos do Projeto LEXIS, foram estabelecidos:<ul><br/><li>a construção de um dicionário eletrônico para um subconjunto significactive da língua portuguesa;</li><br/></ul>' 
   tecnologias:  #tecnologias utilziadas separadas por ,
   grupos: nlp #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   links: 
@@ -91,7 +91,7 @@
     conferencia: 
 
 - titulo: 'PROGNUS' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'Integração de recursos semânticos para anotação, implementação de extrator e indexador de metadados e ferramentas de colaboração para recuperação e recomendação de conteúdos contextuais no Expresso Livre.' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -101,7 +101,7 @@
     conferencia:
 
 - titulo: 'PLN - BR' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'O projeto objetiva a construção de padrões e protocolos que possam diminuir o custo de reconstrução ou adaptação, e possibilitar a reutilização dos recursos construídos para finalidades diversas, além de oferecer uma base comum de avaliação dos diferentes sistemas construídos para um mesmo fim; a construção de recursos e ferramentas comuns, modelados e implementados em consonância com os padrões e protocolos acordados entre as várias equipes; e a construção e a avaliação de aplicações variadas para a recuperação e a extração de informações em documentos produzidos em português brasileiro a partir dos recursos construídos e disponibilizados no âmbito desta proposta. Para a consecução desses objetivos, este projeto está subdividido em oito diferentes subprojetos, cada um dos quais a cargo de um subcoordenador específico. Os vários subprojetos, em que pese a diversidade dos métodos e objetivos envolvidos em cada caso, estarão inter-relacionados pelo compartilhamento de estratégias convergentes de construção e avaliação de recursos, ferramentas e aplicações, que constituirão o ponto de partida de cada uma das equipes, e que serão construídas, comunitariamente, a partir de uma mesma base de documentos.' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -111,7 +111,7 @@
     conferencia: 
 
 - titulo: 'PROCACOSA' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'Esse projeto visa analisar e diagnosticar alguns problemas causados à Sumarização Automática (SA) pela ocorrência de cadeias de co-referência (CCRs) não resolvidas durante a seleção e estruturação do conteúdo de sumários. A modelagem de aspectos específicos do português para o processamento automático do discurso e nas propostas de resolução anafórica terá como foco a aplicação particular de SA. De um modo geral, o objetivo é o uso de informação de co-referência para enriquecer os sumários gerados automaticamente. Esse objetivo implicará o uso e desenvolvimento de ferramentas específicas de autoria do grupo proponente além de ferramentas usadas para construção de corpus anotado, como por exemplo, o analisador sintático PALAVRAS e o sistema de anotação manual de correferência MMAX. O caráter inovador deste projeto está relacionado às iniciativas de processamento do discurso, baseado em modelagem discursiva que associe a resolução anafórica à SA.' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -121,7 +121,7 @@
     conferencia: 
 
 - titulo: 'Privacy – HP' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: '' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -131,7 +131,7 @@
     conferencia: 
 
 - titulo: 'NALAMAS' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: 'O projeto NALAMAS investigou a interpretação de textos em linguagem natural através do uso de sistemas multi-agentes. Foi iniciado em 01/09/1996 e finalizado em 30/11/1998, obtendo resultados que contribuem na elaboração de um modelo de processamento da linguagem natural usando sistemas multi-agentes. Os trabalhos desenvolvidos enfocam o tratamento de fenômenos lingüísticos e estruturais da linguagem natural de modo geral, e da língua portuguesa em particular. O projeto NALAMAS é multi-institucional e congrega 05 instituições nacionais – PUCRS, UFRGS, UFSC, UNICAMP e USP – e uma intituição portuguesa, a Universidade Nova de Lisbôa. A coordenação geral está a cargo da Profa. Dra. Vera Lúcia Strube de Lima, da PUCRS'
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -141,9 +141,9 @@
     conferencia: 
 
 - titulo: 'SEMA' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
-  descricao: '<div class=\"entry\"><br/><h2>Projeto Sema</h2><br/><h3>Descrição</h3><br/><p>Neste projeto, avançaremos no que diz respeito aos sistemas de recuperação de informação (RI) enfatizando a aplicação de processamento da linguagem natural (PLN) em duas abordagens relacionadas:</p><br/><ul><br/><li>A indexação automática dos documentos, apoiada por thesaurus, produzindo uma representação conceitual com temas e subtemas no formato hierárquico, como o de uma tabela de conteúdos (table of contents ou sumário);</li><br/><li>A compreensão da necessidade de informação do usuário, nos mesmos moldes: identificando temas e subtemas também em formato hierárquico.</li><br/></ul><br/><p>Assim, temos a representação temática de cada documento como uma estrutura hierárquica de nodos conceituais, estendida também para a consulta do usuário.<br><br/>A teoria do léxico gerativo de Pustejovsky (LGP), especialmente quanto à estrutura Qualia, será aplicada à indexação semântica de documentos, visando estabelecer relacionamentos entre itens léxicos, como base para a construção de thesauri.</p><br/><h3>Objetivos</h3><br/><p>O projeto focaliza o processamento da língua portuguesa aplicado à RI. Seu objetivo principal é o aprimoramento da RI através da aplicação de consultas e índices baseados em modelos semânticos. Este objetivo principal desdobra-se nos seguintes objetivos específicos:</p><br/><ul><br/><li>Trabalhar a elucidação de termos de consulta e índice com ênfase no sintagma nominal;</li><br/><li>Obter regras de nominalização para a língua portuguesa;</li><br/><li>Configurar um modelo de base que leve em consideração o modelo do léxico gerativo de Pustejovsky;</li><br/><li>Gerar protótipo integrado e aplicar os resultados em consultas a acervos de bibliotecas digitais.</li><br/></ul><br/><p>Também são objetivos do projeto, e igualmente importantes, a produção bibliográfica de cunho científico e de cunho didático, e a formação de recursos humanos e a captacitação tecnológica na área.</p><br/><h3>Metodologia e Estratégia de Ação</h3><br/><p>O projeto foi desenvolvido sob a coordenação do grupo de pesquisas em PLN da Faculdade de Informática da PUCRS (grupo cadastrado no CNPq, estrato eC, ativo na área do projeto desde 1990). Este grupo integra componentes de diversas formações (cientistas da computação, linguístas e multidisciplinares), e interage intensamente com outros grupos no país e exterior. Salientamos, nesse contexto, a equipe da Profa. Renata Vieira, do Centro de Ciências Exatas da UNISINOS.</p><br/><p>Através da cooperação internacional com Portugual (CAPES/ICCTI projeto FUNDAÇÕES) este projeto ainda conta com dois colaboradores: Profs. José Gabriel Pereira Lopes e Prof. Paulo Quaresma, atualmente desenvolvendo projeto europeu na área de RI. Já vem atuando no projeto europeu o Prof. Alexandre Agustini (da PUCRS, em doutoramento em Portugal), que tem interação prevista no projeto SEMA.</p><br/><p>O projeto SEMA tem como base a pesquisa que orienta as atividades atuais do grupo (bolsa de produtividade CNPq da Profa. Vera L. Strube de Lima e uma bolsa IC). O Prof. Marco Gonzalez, que tem forte participação nas diferentes atividades, tem enquadrado neste projeto seu trabalho de doutoramento. Os Profs. da PUCRS, especialmente Vera, Marco, Flávio, João Batista e Gilberto, contam com horas oferecidas pela PUCRS para o desenvolvimento de atividades de pesquisa.</p><br/><p>As ações estarão sempre englobando a ótica da formação, da disseminação de resultados (via página Web e via publicações em veículos especializados) em termos de textos didáticos e de textos científicos.</p><br/></div>' 
+  descricao: '<div class=\"entry\"><br/><h2>Projeto Sema</h2><br/><h3>Descrição</h3><br/><p>Neste projeto, avançaremos no que diz respeito aos sistemas de recuperação de informação (RI) enfatizando a aplicação de processamento da linguagem natural (PLN) em duas abordagens relacionadas:</p><br/><ul><br/><li>A indexação automática dos documentos, apoiada por thesaurus, produzindo uma representação conceitual com temas e subtemas no formato hierárquico, como o de uma tabela de conteúdos (table of contents ou sumário);</li><br/><li>A compreensão da necessidade de informação do usuário, nos mesmos moldes: identificando temas e subtemas também em formato hierárquico.</li><br/></ul><br/><p>Assim, temos a representação temática de cada documento como uma estrutura hierárquica de nodos conceituais, estendida também para a consulta do usuário.<br><br/>A teoria do léxico geractive de Pustejovsky (LGP), especialmente quanto à estrutura Qualia, será aplicada à indexação semântica de documentos, visando estabelecer relacionamentos entre itens léxicos, como base para a construção de thesauri.</p><br/><h3>Objetivos</h3><br/><p>O projeto focaliza o processamento da língua portuguesa aplicado à RI. Seu objetivo principal é o aprimoramento da RI através da aplicação de consultas e índices baseados em modelos semânticos. Este objetivo principal desdobra-se nos seguintes objetivos específicos:</p><br/><ul><br/><li>Trabalhar a elucidação de termos de consulta e índice com ênfase no sintagma nominal;</li><br/><li>Obter regras de nominalização para a língua portuguesa;</li><br/><li>Configurar um modelo de base que leve em consideração o modelo do léxico geractive de Pustejovsky;</li><br/><li>Gerar protótipo integrado e aplicar os resultados em consultas a acervos de bibliotecas digitais.</li><br/></ul><br/><p>Também são objetivos do projeto, e igualmente importantes, a produção bibliográfica de cunho científico e de cunho didático, e a formação de recursos humanos e a captacitação tecnológica na área.</p><br/><h3>Metodologia e Estratégia de Ação</h3><br/><p>O projeto foi desenvolvido sob a coordenação do grupo de pesquisas em PLN da Faculdade de Informática da PUCRS (grupo cadastrado no CNPq, estrato eC, active na área do projeto desde 1990). Este grupo integra componentes de diversas formações (cientistas da computação, linguístas e multidisciplinares), e interage intensamente com outros grupos no país e exterior. Salientamos, nesse contexto, a equipe da Profa. Renata Vieira, do Centro de Ciências Exatas da UNISINOS.</p><br/><p>Através da cooperação internacional com Portugual (CAPES/ICCTI projeto FUNDAÇÕES) este projeto ainda conta com dois colaboradores: Profs. José Gabriel Pereira Lopes e Prof. Paulo Quaresma, atualmente desenvolvendo projeto europeu na área de RI. Já vem atuando no projeto europeu o Prof. Alexandre Agustini (da PUCRS, em doutoramento em Portugal), que tem interação prevista no projeto SEMA.</p><br/><p>O projeto SEMA tem como base a pesquisa que orienta as atividades atuais do grupo (bolsa de produtividade CNPq da Profa. Vera L. Strube de Lima e uma bolsa IC). O Prof. Marco Gonzalez, que tem forte participação nas diferentes atividades, tem enquadrado neste projeto seu trabalho de doutoramento. Os Profs. da PUCRS, especialmente Vera, Marco, Flávio, João Batista e Gilberto, contam com horas oferecidas pela PUCRS para o desenvolvimento de atividades de pesquisa.</p><br/><p>As ações estarão sempre englobando a ótica da formação, da disseminação de resultados (via página Web e via publicações em veículos especializados) em termos de textos didáticos e de textos científicos.</p><br/></div>' 
   tecnologias:  #tecnologias utilziadas separadas por ,
   grupos: nlp #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
   links: 
@@ -151,7 +151,7 @@
     conferencia: 
 
 - titulo: 'Fortalecimento e Integração nas Competências do Processamento da Língua' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: '<div class=\"entry\"><br/><h2>FAROL</h2><br/><h3>Fortalecimento e Integração nas Competências do Processamento da Língua</h3><br/><p>A idéia de farol, que traz nome ao projeto, remete a um ponto de luz, sinalização e referência, nesse relevante tema do Processamento da Língua.</p><br/><p>Vigência do projeto: 2006 a 2009</p><br/><h3>Objetivo</h3><br/><p>Impulsionar a área do processamento da língua no país, através da colaboração entre as instituições que vêm desenvolvendo pesquisas nesta área, fortalecendo a formação de mestres e doutores através da associação entre as equipes.</p><br/><h3>Equipes</h3><br/><p>NILC da USP/São Carlos, UFSCar, UNISINOS e PUCRS.</p><br/><p>Coordenação geral:<br><br/>Profa. Vera Lúcia Strube de Lima<br><br/>Programa de Pós-Graduação em Ciência da Computação<br><br/>Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)</p><br/><p>Coordenações das equipes participantes:<br><br/>Profa. Lúcia Helena Machado Rino (UFScar)<br><br/>Profa. Maria das Graças Volpe Nunes (USP-São Carlos)<br><br/>Profa. Renata Vieira (UNISINOS)</p><br/><h3>Produção</h3><br/><p><a href=\"http://www.inf.pucrs.br/linatural/Docs/Desafios.pdf\" data-slimstat=\"3\">Desafios do Processamento de Línguas Naturais.</a></p><br/></div>' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -161,7 +161,7 @@
     conferencia: 
 
 - titulo: 'Microbio' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: '' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -171,7 +171,7 @@
     conferencia: 
 
 - titulo: 'Portuguese ONTOlogies' 
-  status: concluído 
+  status: done 
   palavras-chaves:  #palavras chaves separadas por ,
   descricao: '<div class=\"entry\"><h2>PONTO</h2><h3>Portuguese ONTOlogies</h3><p>Vigência do projeto: 2007 a 2009</p><h3>Objetivo</h3><br/><p>O objetivo geral deste projeto é o desenvolvimento tecnológico no que se refere à construção e enriquecimento semi-automáticos de ontologias a partir de textos em língua portuguesa, através de uma interação entre pesquisadores brasileiros e portugueses. A interação permitirá o intercâmbio de práticas de análise e de investigação lingüístico-computacional, bem como de resultados de pesquisa, acelerando a pesquisa e qualificando os resultados obtidos.</p><br/><h3>Equipes</h3><br/><p>Universidade de Lisboa (Portugal) e PUCRS (Brasil).</p><br/><p>Coordenação pelo lado brasileiro:<br><br/>Profa. Vera Lúcia Strube de Lima<br><br/>Programa de Pós-Graduação em Ciência da Computação<br><br/>Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)</p><br/><p>Coordenação pelo lado português:<br><br/>Prof. António Manuel Horta Branco<br><br/>Faculdade de Ciências<br><br/>Departamento de Informática<br><br/>Universidade de Lisboa</p><br/></div>' 
   tecnologias:  #tecnologias utilziadas separadas por ,
@@ -181,7 +181,7 @@
     conferencia: 
 
 - titulo: DOMAP
-  status: concluído
+  status: done
   palavras-chaves: multi-agentes
   descricao: "The Decentralised Online Multi-Agent Planning framework (DOMAP) provides multi-agent systems with capabilities to solve cooperative online multi-agent planning problems. DOMAP is divided into several main components: i) multi-agent system factored representation, a multi-agent planning formalism that contains information about the world according to each agent's point of view;  ii) a contract net protocol mechanism for goal allocation; iii) individual Hierarchical Task Network (HTN) planning; iv) social laws to coordinate agents at runtime. DOMAP is implemented in the <a href=\"http://jacamo.sourceforge.net/\" target=\"_blank\">JaCaMo</a> platform."
   tecnologias: planning
@@ -191,7 +191,7 @@
     conferencia: 
 
 - titulo: Pró-Alertas
-  status: ativo
+  status: active
   palavras-chaves: disaster response
   descricao: Combines the technology created in other projects into a single system and provides a citywide simulation environment to test responses and planning under different disaster scenarios.
   tecnologias: 
@@ -200,7 +200,7 @@
     git: 
     conferencia:   
 - titulo: Argumentation-Based Framework
-  status: ativo
+  status: active
   palavras-chaves: argumentation
   descricao: "An Argumentation-Based Framework for BDI Agents using <a href=\"http://jacamo.sourceforge.net/\" target=\"_blank\">JaCaMo</a> Platform. In this project, we investigate the use of argumentation techniques to enable argumentation-based reasoning and communication in multi-agent systems. The source codes for this project are available in the following links:
      Argumentation-Based Dialogues in Agent-Oriented Porgamming Languages <a href=\"https://github.com/AlisonPanisson/ABDinAOPL\" target=\"_blank\"></a>.
@@ -221,7 +221,7 @@
     git: https://github.com/smart-pucrs/Coalition4MAS
     conferencia: 
 - titulo: JaCaMo with Dialogflow Integration
-  status: ativo
+  status: active
   palavras-chaves: coalition formation
   descricao: To give Jason the ability to communicate with users through natural language, we are developing an integration between JaCaMo and Dialogflow.
   tecnologias: JaCa
@@ -230,7 +230,7 @@
     git: https://github.com/DeboraEngelmann/helloworld_from_jason
     conferencia: 
 - titulo: JaCaMo with Ontologies
-  status: ativo
+  status: active
   palavras-chaves: Ontology
   descricao: To give Jason the ability to get knowledge in an ontology, we are developing an example of consultations of JaCaMo in an Ontology.
   tecnologias: JaCa
