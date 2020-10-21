@@ -70,80 +70,11 @@ layout: default
   </div>
 </div>
 
-<script>
-// Get the button that opens the modal
-var btn = document.querySelectorAll("button.open-modal");
+<!--  Modal -->
+<script src="/scripts/modal.js"></script>
 
-// All page modals
-var modals = document.querySelectorAll('.modal');
-
-// Get the <span> element that closes the modal
-var spans = document.getElementsByClassName("close");
-
-// When the user clicks the button, open the modal
-for (var i = 0; i < btn.length; i++) {
- btn[i].onclick = function(e) {
-    e.preventDefault();
-    modal = document.querySelector(e.target.getAttribute("href"));
-    modal.style.display = "block";
- }
-}
-
-// When the user clicks on <span> (x), close the modal
-for (var i = 0; i < spans.length; i++) {
- spans[i].onclick = function() {
-    for (var index in modals) {
-      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
-    }
- }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target.classList.contains('modal')) {
-     for (var index in modals) {
-      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
-     }
-    }
-}
-</script>
-
-<!-- filtros das listas -->
-<script type="text/javascript">
-  var filters = ['groups', 'nivel']
-
-  function applyFilters(){
-    var query = ""
-
-    for(filter of filters){
-      var checked = ''
-      $('input[name="'+filter+'"]:checked').each(function(){
-        checked += $(this).val()+', '
-      })
-      checked = checked.trim().slice(0, -1)
-      if(checked != ''){        
-        query += '[data-'+filter+'*="'+checked+'"]'
-      }
-    }
-
-    $("div.filter-card:not("+query+")").hide()
-    $("div.filter-card"+query).show()
-
-    if($('div.filter-card:visible').length == 0){
-      $('div.filter-card-empty')[0].style.display = ''
-    }
-    else{
-      $('div.filter-card-empty')[0].style.display = 'none'
-    }
-  }
-
-  var input = $('input.filter')
-
-  input.change(function(){
-    applyFilters()
-  })
-
-</script>
+<!-- Filtros das listas -->
+<script type="text/javascript" id="filters" data-filter1="groups" data-filter2="nivel" src="/scripts/filtroListas.js"></script>
 
 
 

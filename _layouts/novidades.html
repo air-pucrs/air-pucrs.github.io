@@ -57,42 +57,5 @@ layout: default
   </div>
 </div>
 
-<!-- filtros das listas -->
-<script type="text/javascript">
-  var filters = ['groups', 'date']
-
-  function applyFilters(){
-    var query = ""
-
-    for(filter of filters){
-      var checked = ''
-      $('input[name="'+filter+'"]:checked, input[type="date"][name="'+filter+'"]').each(function(){
-        checked += $(this).val()+', '
-      })
-      checked = checked.trim().slice(0, -1)
-      if(checked != ''){        
-        query += '[data-'+filter+'*="'+checked+'"]'
-      }
-    }
-
-    $("div.filter-card:not("+query+")").hide()
-    $("div.filter-card"+query).show()
-
-    if($('div.filter-card:visible').length == 0){
-      $('div.filter-card-empty')[0].style.display = ''
-    }
-    else{
-      $('div.filter-card-empty')[0].style.display = 'none'
-    }
-  }
-
-  var input = $('input.filter')
-
-  input.change(function(){
-    applyFilters()
-  })
-
-</script>
-
-
-
+<!-- Filtros das listas -->
+<script type="text/javascript" id="filters" data-filter1="groups" data-filter2="date" src="/scripts/filtroListas.js"></script>

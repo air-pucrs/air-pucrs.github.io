@@ -15,14 +15,23 @@
 
 .landing-header {
   padding: 60px 0 100px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
   h1, h2 {
     margin: 0;
     color: $white;
+    letter-spacing: 1px;
+    font-family: inherit;
   }
   h5 {
     color: $gray-color-dark;
     margin: 20px 0;
     line-height: 1.5em;
+  }
+  h4 {
+    letter-spacing: 2px;
+    text-align: justify;
+    font-family: inherit;
   }
   button {
     margin: 20px 0;
