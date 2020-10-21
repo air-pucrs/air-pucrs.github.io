@@ -45,11 +45,12 @@ layout: default
         {% assign projects = projects | push: project %}
       {% endfor %}
 
-      {% assign status = projects | group_by: "status" %}
-      {% assign projects = status | sort: "titulo" %}
+      {% assign projects_status = projects | group_by: "status" %}
+      {% assign projects_status_sorted = projects_status | sort: "titulo" %}
 
-      {% for project in projects %}
-      {% assign projeto = project %}
+      {% for ps in projects_status %}
+      {% assign projetos = ps.items %}
+      {% for projeto in projetos %}
         {% include projeto-card.html %}
         {% include projeto-modal.html %}
       {% endfor %}
