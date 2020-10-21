@@ -49,10 +49,11 @@ layout: default
       {% assign projects_status_sorted = projects_status | sort %}
 
       {% for ps in projects_status_sorted %}
-      {% assign projetos = ps.items | sort: "titulo" %}
-      {% for projeto in projetos %}
-        {% include projeto-card.html %}
-        {% include projeto-modal.html %}
+        {% assign projetos = ps.items | sort: "titulo" %}
+        {% for projeto in projetos %}
+          {% include projeto-card.html %}
+          {% include projeto-modal.html %}
+        {% endfor %}
       {% endfor %}
       <div class="column col-12 filter-card-empty" data-groups="none" style="display: none;">
         <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
