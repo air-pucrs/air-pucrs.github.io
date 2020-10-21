@@ -93,6 +93,15 @@
     }
   }
 
+  @media screen and (max-width: 800px) {
+    .card-body {
+      img {
+        max-height: 11rem;
+        width: 70%;
+      }
+    }
+  }
+
   .tag-container {
     display: flex;
     flex-direction: row;
