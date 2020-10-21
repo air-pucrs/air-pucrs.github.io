@@ -40,18 +40,17 @@ layout: default
           </fieldset> 
         </div>
       </div>
-      {% assign projects = "" | split: "" %}
-      {% for project in site.data.projetos_list %}
-        {% assign projects = projects | push: project %}
+      {% assign status = site.data.projetos_list | group_by: "status" %}
+      {% assign statusSorted = status | sort: "name" %}
+      {% for y in statusSorted %}
+        {% assign statusTitlesSorted = y.items | sort: "titulo" %}
+        {% for t in statusTitlesSorted %}
+          {% assign projeto = t %}
+          {% include projeto-card.html %}
+          {% include projeto-modal.html %}
+        {% endfor %}
       {% endfor %}
-
-      {% assign projects = projects | sort: "titulo" %}
-
-      {% for project in projects %}
-      {% assign projeto = project %}
-        {% include projeto-card.html %}
-        {% include projeto-modal.html %}
-      {% endfor %}
+      </ul>
       <div class="column col-12 filter-card-empty" data-groups="none" style="display: none;">
         <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
           <div class="card-body">
