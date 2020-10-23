@@ -2,73 +2,87 @@
 
   <!-- Modal content -->
   <div class="modal-content">
-    <div class="modal-header rows row-y-align">
+    <div class="modal-body rows row-y-align">
 
       <div class="columns col-x-align">
         <div class="column col-auto">
-          <div class="flex-vertical-center">
-            <figure class="avatar d-inline-block hide-sm" style="align-items: center; height: 5rem; width: 5rem">
-              <img  src="{{ site.baseurl }}/{{ integrante.foto}}" alt="...">
-            </figure>
-            <div class="ml-2">
-              <span class="mb-0">{{ integrante.nome }} {{integrante.sobrenome}}</span>
+          <div class="top-section">
+            <div class="image-container">
+              <figure class="avatar d-inline-block hide-sm">
+                <img  src="{{ site.baseurl }}/{{ integrante.foto}}" alt="{{ integrante.nome }}">
+              </figure>
+              <div class="group-info">
+                <div class="ml-2">
+                  <h5 class="mb-0">{{ integrante.nome }} {{integrante.sobrenome}}</h5>
+                </div>
+                <div class="divider"></div>
+                <div class="ml-2">
+                  <span class="mb-0"><span class="bold">Email:</span> {{integrante.email}}</span>
+                </div>
+                <div class="ml-2">
+                  <span><span class="bold">Level:</span> {{integrante.nivel}}</span>
+                </div> 
+                <div class="ml-2">
+                  <span><span class="bold">Position:</span> {{integrante.posicao}}</span>
+                </div> 
             </div>
           </div>
-          <div class="ml-2">
-            <span class="mb-0">E-mail: {{integrante.email}}</span>
+            <div>
+              <span class="close">X</span>
+            </div>
           </div>
-        </div>
-        <div class="column">
-          <span class="close">×</span>
+
         </div>
       </div>
 
       <div class="columns col-x-align"> 
-        <div class="column col-auto">
-          <span>{{integrante.nivel}}</span>
-        </div> 
-        <div class="column col-auto">
-          <span>{{integrante.posicao}}</span>
-        </div> 
-        <div class="column col-auto">
-          {% assign grupos = integrante.grupos | split: "," %}
+        <div class="group-info" style="margin-top: 5px">
+          <div class="column col-auto about">
+            {% if integrante.sobre == null %}
+            {% else %}
+            <h5>About</h5>
+            <p>{{integrante.sobre}}</p>
+            {% endif %}
+            {% if integrante.formacao == null %}
+            {% else %}
+            <p>Formação: {{integrante.formacao}}</p>
+            {% endif %}
+            {% if integrante.origem == null %}
+            {% else %}
+            <p>Cidade: {{integrante.origem}}</p>
+            {% endif %}
+          </div>
+       </div>
+      </div>
+
+      <div class="columns col-x-align"> 
+        <div class="column col-auto social-media-info">
+          <h5>Social Media</h4>
+          {% for social in integrante.redes-sociais %}
+          {% capture rs %}{{ social | first }}{% endcapture %}
+          {% assign link = integrante.redes-sociais[rs] %}
+            <span><span>{{rs}}:</span> <a href="{{link}}" target="_blank" rel="noopener noreferrer">{{link}}</a></span>
+            <br>
+          {% endfor %}
+        </div>       
+      </div>
+      <div class="group-info">
+        <div style="margin-top: 10px">
+          <h5>Groups</h4>
+        </div>
+        <div class="column col-auto tag-container">
+          <div class="tag-content">
           {% for g in grupos %}
             {% assign gs = g | strip %}
             {% assign grupo = site.data.grupos_list[gs] %}
             <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
-              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+              <span class="text-semibold m-0 tag">{{ grupo.abreviacao }}</span>
             </a>
           {% endfor %}
-        </div>       
+         </div>
+        </div> 
       </div>
 
-      <div class="columns col-x-align"> 
-        <div class="column col-auto">
-          {% for social in integrante.redes-sociais %}
-          {% capture rs %}{{ social | first }}{% endcapture %}
-          {% assign link = integrante.redes-sociais[rs] %}
-            <span>{{rs}}: {{link}}</span>
-          {% endfor %}
-        </div>       
-      </div>
-
-    </div>
-    <div class="modal-body">
-      {% if integrante.sobre == null %}
-      {% else %}
-      <p>Sobre: {{integrante.sobre}}</p>
-      {% endif %}
-      {% if integrante.formacao == null %}
-      {% else %}
-      <p>Formação: {{integrante.formacao}}</p>
-      {% endif %}
-      {% if integrante.origem == null %}
-      {% else %}
-      <p>Cidade: {{integrante.origem}}</p>
-      {% endif %}
-    </div>
-    <div class="modal-footer">
-      <h3></h3>
     </div>
   </div>
 
