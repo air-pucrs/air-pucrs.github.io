@@ -2,13 +2,8 @@
 
 # How to run it
 
-Probably will need to install ruby and jekyll. I dont know the steps but google does :D
-It's also possible that you'll have to install the bundler: gem install bundler
+You need to have ruby, jekyll and bundler installed on your machine.
 
-To run the website locally: jekyll server
+To run the website locally: bundle exec jekyll server
 
-That's all!
-
-
-
-
+Now you can access it in: http://127.0.0.1:4000/

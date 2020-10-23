@@ -2,49 +2,67 @@
 
   <!-- Modal content -->
   <div class="modal-content">
-    <div class="modal-header rows row-y-align">
+    <div class="modal-body rows row-y-align">
 
       <div class="columns col-x-align">
         <div class="column col-auto">
-          <span class="mb-0">{{ projeto.titulo }}</span>
-        </div>
-        <div class="column">
-          <span class="close">×</span>
+          <div class="top-section">
+            <div class="image-container">
+              <div class="group-info">
+                <div class="ml-2">
+                  <h5 class="mb-0">{{ projeto.titulo }}</h5>
+                </div>
+                <div class="divider"></div>
+                <div class="ml-2">
+                  <span class="mb-0"><span class="bold">Status:</span> {{projeto.status}}</span>
+                </div>
+            </div>
+          </div>
+            <div>
+              <span class="close">X</span>
+            </div>
+          </div>
+
         </div>
       </div>
 
       <div class="columns col-x-align"> 
-        <div class="column">
-          <span>{{projeto.status}}</span>
-        </div>  
-        <div class="column col-auto">
-          {% assign grupos = projeto.grupos | split: "," %}
+        <div class="group-info" style="margin-top: 15px">
+          <div class="column col-auto about">
+            <h5>About</h5>
+            <p>{{projeto.descricao}}</p>
+          </div>
+       </div>
+      </div>
+
+      <div class="columns col-x-align"> 
+        <div class="column col-auto social-media-info">
+          <h5>Links</h4>
+            {% for links in projeto.links %}
+            {% capture l %}{{ links | first }}{% endcapture %}
+            {% assign link = projeto.links[l] %}
+            <span><span>{{l}}:</span> <a href="{{link}}" target="_blank" rel="noopener noreferrer">{{link}}</a></span>
+            <br>
+          {% endfor %}
+        </div>       
+      </div>
+      <div class="group-info">
+        <div style="margin-top: 10px">
+          <h5>Groups</h4>
+        </div>
+        <div class="column col-auto tag-container">
+          <div class="tag-content">
           {% for g in grupos %}
             {% assign gs = g | strip %}
             {% assign grupo = site.data.grupos_list[gs] %}
             <a href="{{ site.baseurl }}/grupo-{{ grupo.link }}">              
-              <span class="text-semibold m-0">{{ grupo.abreviacao }}</span>
+              <span class="text-semibold m-0 tag">{{ grupo.abreviacao }}</span>
             </a>
           {% endfor %}
-        </div>       
+         </div>
+        </div> 
       </div>
 
-      <div class="columns col-x-align"> 
-        <div class="column col-auto">
-          {% for links in projeto.links %}
-          {% capture l %}{{ links | first }}{% endcapture %}
-          {% assign link = projeto.links[l] %}
-            <span>{{l}}: {{link}}</span>
-          {% endfor %}
-        </div>       
-      </div>
-
-    </div>
-    <div class="modal-body">
-      {{projeto.descricao}}
-    </div>
-    <div class="modal-footer">
-      <h3></h3>
     </div>
   </div>
 
