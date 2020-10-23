@@ -36,11 +36,11 @@
       </div>
 
       <div class="columns col-x-align"> 
-        <div class="group-info" style="margin-top: 5px">
+        <div class="group-info" style="margin-top: 15px">
           <div class="column col-auto about">
+            <h5>About</h5>
             {% if integrante.sobre == null %}
             {% else %}
-            <h5>About</h5>
             <p>{{integrante.sobre}}</p>
             {% endif %}
             {% if integrante.formacao == null %}
@@ -50,6 +50,9 @@
             {% if integrante.origem == null %}
             {% else %}
             <p>Cidade: {{integrante.origem}}</p>
+            {% endif %}
+            {% if integrante.sobre == null && integrante.formacao == null && integrante.origem == null %}
+            <p>No information about this member</p>
             {% endif %}
           </div>
        </div>
