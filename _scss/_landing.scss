@@ -14,7 +14,7 @@
 
 
 .landing-header {
-  padding: 60px 0 100px;
+  padding: 20px 0 100px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   h1, h2 {
@@ -23,11 +23,13 @@
     letter-spacing: 1px;
     font-family: inherit;
   }
+
   h5 {
     color: $gray-color-dark;
     margin: 20px 0;
     line-height: 1.5em;
   }
+
   h4 {
     letter-spacing: 2px;
     text-align: justify;
@@ -36,7 +38,16 @@
   button {
     margin: 20px 0;
   }
-      
+}
+
+@media screen and (max-width: 800px) {
+  .landing-header {
+    padding-top: 10px !important;
+
+    h1 {
+      font-size: 40px !important;
+    }
+  }
 }
 
 .overview {
@@ -48,6 +59,7 @@
     h4, p {
       margin: 0;
     }
+
     h4 {
       background: $white;
       padding: 15px;
