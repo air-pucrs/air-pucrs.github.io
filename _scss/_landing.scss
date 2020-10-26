@@ -42,7 +42,8 @@
 
 @media screen and (max-width: 800px) {
   .landing-header {
-    padding-top: 10px !important;
+    padding-top: 0 !important;
+    margin-top: -50px !important;
 
     h1 {
       font-size: 40px !important;
