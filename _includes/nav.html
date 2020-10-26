@@ -10,13 +10,11 @@
       <img style="max-width: 150px;" src="{{ site.baseurl }}/assets/{{ site.brand_logo }}" alt="Artificial Intelligence Research Group at PUCRS" />
     </a>
 
-    <button href="#modal-menu" style="height: auto;" class="btn btn-members btn-lg btn-outline py-2 open-modal">Menu</button>
+    <button href="#modal-menu" style="height: auto;" class="btn btn-lg btn-outline py-2 open-modal mobile-menu-button">Menu</button>
 
   </div>
 
   <ul class="main-nav">
-
-    <!-- TODO Ajustar css do dropdown -->
     <li class="dropdown mx-4">
       <a href="{{ site.baseurl }}/" class="dropdown-toggle nav-links" style="color:white">Grupos</a>
       <ul class="menu">
@@ -48,6 +46,11 @@
 
 <div id="modal-menu" class="modal">
   <ul class="menu menu-mobile">
+      <div class="mobile-menu-header">
+        <h4 class="mobile-menu-title">Menu</h4>
+        <h4><span class="mobile-close">X</span></h4>
+      </div>
+      <div class="divider"></div>
       <li class="dropdown mx-4">
         <a class="dropdown-toggle nav-links">Grupos</a>
         <ul class="menu">             

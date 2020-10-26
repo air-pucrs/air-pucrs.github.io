@@ -11,6 +11,8 @@ document.querySelectorAll('.close').forEach(span => {
   span.addEventListener('click', e => handleCloseModal(e));
 });
 
+document.querySelector('.mobile-close').addEventListener('click', e => handleCloseModal(e));
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = (e) => {

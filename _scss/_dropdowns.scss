@@ -33,7 +33,6 @@
 
     
     li {
-      display: block;
       padding: .25rem 1.5rem;
       clear: both;
       font-weight: 400;
@@ -51,6 +50,12 @@
       justify-content: center;
       background-color: #FFF;
       border-radius: 40px;
+    }
+
+    @media screen and (max-width: 768px) {
+      li {
+        justify-content: flex-start
+      }
     }
     
     li:hover {
@@ -78,7 +83,7 @@
     }
 
     li {
-      margin-top: -15px;
+      margin-top: -20px;
     }
   }
 

@@ -51,3 +51,23 @@
 #pub .nav{
   flex-direction: row;
 }
+
+.mobile-menu-button {
+  margin: 30px 0 0 -22px;
+  color: #fff !important;
+}
+
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-close {
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.mobile-menu-title {
+  padding-left: 15px;
+}
