@@ -9,31 +9,38 @@ layout: default
     <div class="mt-8"></div>
     <div class="columns negative-m-xl">
       <div class="column col-12">
-        <ul class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="{{ site.url }}{{ site.baseurl }}">Home</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="#">Novidades</a>
-          </li>
-        </ul>
-        <h2 class="text-light text-bold">Notícias e Novidades</h2>
-        <p class="text-light mb-2">As novas do AIR</p>
-        <p class="text-light mb-2">Filtre Por:</p>
-        <div class="column">
+        <div class="top-text">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}{{ site.baseurl }}">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Novidades</a>
+            </li>
+          </ul>
+
+            <h2 class="text-light text-bold">Notícias e Novidades</h2>
+            <p class="text-light mb-2">As novas do AIR</p>
+            <p class="text-light mb-2 filter-text">Filtre Por:</p>
+        </div>
+        <div class="column filters">
           <fieldset class="rows">      
-              <legend>Grupos</legend>
+              <legend>Groups</legend>
               {% for group in site.data.grupos_list %}
                 {% capture grupo_name %}{{ group | first }}{% endcapture %}
                 {% assign grupo = site.data.grupos_list[grupo_name] %}
-                <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">{{ grupo.abreviacao }}      
+                <div class="checkbox-container">
+                  <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">     
+                  <span class="checkbox-custom"></span>
+                  <p>{{ grupo.abreviacao }}</p>
+                </div>
               {% endfor %}              
           </fieldset> 
         </div>
-        <div class="column">
+        <div class="column filters">
           <fieldset class="rows">      
-              <legend>Data</legend>
-                <input type="date" name="date" class="row filter">           
+              <legend>Date</legend>
+              <input type="date" name="date" class="row filter">           
           </fieldset> 
         </div>
       </div>

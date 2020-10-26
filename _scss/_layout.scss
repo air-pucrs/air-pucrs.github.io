@@ -468,3 +468,214 @@
     display: block !important;
   }
 }
+
+.top-text {
+  padding-left: 5px;
+
+  .filter-text {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .top-text .filter-text{
+    margin-top: 15px;
+  }
+}
+
+// Filters div
+.filters {
+  margin-top: 20px;
+
+  fieldset legend {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  & + .filters {
+    margin-top: -10px !important;
+  }
+}
+
+// Custom checkboxes for filtering
+.filters {
+  .checkbox-container {
+    display: inline-block;
+    position: relative;
+    margin: 10px 20px 0px 0;
+  }
+
+  .checkbox-container p {
+    margin-left: 30px;
+  }
+
+  .checkbox-container input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .checkbox-container .checkbox-custom {
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #FE5E33;
+
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+  }
+
+  .checkbox-container .checkbox-custom::after {
+    position: absolute;
+    content: "";
+    top: 12px;
+    left: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+    border: solid #FE5E33;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(0deg) scale(0);
+    -ms-transform: rotate(0deg) scale(0);
+    transform: rotate(0deg) scale(0);
+    opacity: 1;
+
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+  }
+
+  .checkbox-container input[type="checkbox"]:checked ~ .checkbox-custom {
+    background-color: #FE5E33;
+    border-radius: 5px;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    border: 2px solid #FE5E33;
+  }
+
+  .checkbox-container input:checked ~ .checkbox-custom::after {
+    -webkit-transform: rotate(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    opacity: 1;
+    left: 5px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
+
+// Custom date fieldset
+.filters {
+  input[type="date"] {
+    margin: 5px 0 20px 0;
+    border: 1px solid #FE5E33;
+    box-shadow: 0 2px 5px rgba(50,50,93,.3);
+  }
+}
+
+// Custom Radio buttons for filtering
+.filters {
+  .radio-container {
+    display: inline-block;
+    position: relative;
+    margin: 10px 20px 0px 0;
+  }
+
+  .radio-container p {
+    margin-left: 30px;
+  }
+
+  .radio-container input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .radio-container .radio-custom {
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid #FE5E33;
+
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+  }
+
+  .radio-container .radio-custom::after {
+    position: absolute;
+    content: "";
+    top: 12px;
+    left: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 30px;
+    border: solid #FE5E33;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(0deg) scale(0);
+    -ms-transform: rotate(0deg) scale(0);
+    transform: rotate(0deg) scale(0);
+    opacity: 1;
+
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+  }
+
+  .radio-container input[type="radio"]:checked ~ .radio-custom {
+    background-color: #FE5E33;
+    border-radius: 30px;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    border: 2px solid #FE5E33;
+  }
+
+  .radio-container input:checked ~ .radio-custom::after {
+    -webkit-transform: rotate(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    opacity: 1;
+    left: 5px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}

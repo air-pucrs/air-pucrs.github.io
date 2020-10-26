@@ -9,35 +9,61 @@ layout: default
     <div class="mt-8"></div>
     <div class="columns negative-m-xl">
       <div class="column col-12">
-        <ul class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="#">Members</a>
-          </li>
-        </ul>
-        <h2 class="text-light text-bold">Breathers</h2>
-        <p class="text-light mb-2">All AIR Member</p>
-        <p class="text-light mb-2">Filter by:</p>
-        <div class="column">
+        <div class="top-text">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Members</a>
+            </li>
+          </ul>
+          <h2 class="text-light text-bold">Breathers</h2>
+          <p class="text-light mb-2">All AIR Member</p>
+          <p class="text-light mb-2 filter-text">Filter by:</p>
+        </div>
+        <div class="column filters">
           <fieldset class="rows">      
-              <legend>Grupos</legend>
+              <legend>Groups</legend>
               {% for group in site.data.grupos_list %}
                 {% capture grupo_name %}{{ group | first }}{% endcapture %}
                 {% assign grupo = site.data.grupos_list[grupo_name] %}
-                <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">{{ grupo.abreviacao }}      
+                <div class="checkbox-container">
+                  <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">     
+                  <span class="checkbox-custom"></span>
+                  <p>{{ grupo.abreviacao }}</p>
+                </div>     
               {% endfor %}              
           </fieldset> 
         </div>
-        <div class="column">
+        <div class="column filters">
           <fieldset class="rows">      
-              <legend>Nível</legend>
-                <input type="radio" name="nivel" value="" class="row filter" checked=""> All
-                <input type="radio" name="nivel" value="msc" class="row filter"> Master
-                <input type="radio" name="nivel" value="doc" class="row filter"> PhD  
-                <input type="radio" name="nivel" value="pos-doc" class="row filter"> Post-Doctoral
-          </fieldset> 
+              <legend>Level</legend>
+                <div class="radio-container">
+                  <input type="radio" name="nivel" value="" class="row filter" checked="">
+                  <span class="radio-custom"></span>
+                  <p>All</p>
+                </div>
+                
+                <div class="radio-container">
+                  <input type="radio" name="nivel" value="msc" class="row filter">
+                  <span class="radio-custom"></span>
+                  <p>Master</p>
+                </div>
+
+                <div class="radio-container">
+                  <input type="radio" name="nivel" value="doc" class="row filter">
+                  <span class="radio-custom"></span>
+                  <p>PhD</p>  
+                </div>
+
+                <div class="radio-container">
+                  <input type="radio" name="nivel" value="pos-doc" class="row filter">
+                  <span class="radio-custom"></span>
+                  <p>Post-Doctoral</p>
+                </div>
+              </div>
+            </fieldset> 
         </div>
       </div>
       {% assign members = "" | split: "" %}

@@ -9,34 +9,59 @@ layout: default
     <div class="mt-8"></div>
     <div class="columns negative-m-xl">
       <div class="column col-12">
-        <ul class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="#">Projetos</a>
-          </li>
-        </ul>
-        <h2 class="text-light text-bold">Projetos</h2>
-        <p class="text-light mb-2">Todos os projetos realizados pelo AIR</p>
-        <p class="text-light mb-2">Filtre Por:</p>
-        <div class="column">
+        <div class="top-text">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Projetos</a>
+            </li>
+          </ul>
+          <h2 class="text-light text-bold">Projetos</h2>
+          <p class="text-light mb-2">Todos os projetos realizados pelo AIR</p>
+          <p class="text-light mb-2 filter-text">Filtre Por:</p>
+        </div>
+        <div class="column filters">
           <fieldset class="rows">      
-              <legend>Grupos</legend>
+              <legend>Groups</legend>
               {% for group in site.data.grupos_list %}
                 {% capture grupo_name %}{{ group | first }}{% endcapture %}
                 {% assign grupo = site.data.grupos_list[grupo_name] %}
-                <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">{{ grupo.abreviacao }}      
+                <div class="checkbox-container">
+                  <input type="checkbox" name="groups" value="{{grupo_name}}" class="row filter">     
+                  <span class="checkbox-custom"></span>
+                  <p>{{ grupo.abreviacao }}</p>
+                </div>       
               {% endfor %}              
           </fieldset> 
         </div>
-        <div class="column">
+        <div class="column filters">
           <fieldset class="rows">      
               <legend>Status</legend>
-                <input type="radio" name="status" value="" class="row filter" checked=""> Todos
-                <input type="radio" name="status" value="ativo" class="row filter"> Ativo
-                <input type="radio" name="status" value="concluído" class="row filter"> Concluído  
-                <input type="radio" name="status" value="suspenso" class="row filter"> Suspenso             
+              <div class="radio-container">
+                <input type="radio" name="status" value="" class="row filter" checked="">
+                <span class="radio-custom"></span>
+                <p>All</p>
+              </div>
+
+              <div class="radio-container">
+                <input type="radio" name="status" value="active" class="row filter">
+                <span class="radio-custom"></span>
+                <p>Active</p>
+              </div>
+
+              <div class="radio-container">
+                <input type="radio" name="status" value="done" class="row filter">
+                <span class="radio-custom"></span>
+                <p>Done</p>
+              </div>
+
+              <div class="radio-container">
+                <input type="radio" name="status" value="suspended" class="row filter">
+                <span class="radio-custom"></span>
+                <p>Suspended</p>
+              </div>          
           </fieldset> 
         </div>
       </div>
