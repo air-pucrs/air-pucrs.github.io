@@ -52,8 +52,42 @@
   flex-direction: row;
 }
 
+
+.menu-mobile-container {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .medium-plus-logo {
+    display: none !important;
+  }
+
+  .menu-mobile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 350px) { 
+  .small-minus-logo img {
+    display: none;
+  }
+}
+
+
 .mobile-menu-button {
-  margin: 30px 0 20px -22px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0 0;
+  border: none !important;
+  background: #FE5E33 !important;
+  opacity: 0.9;
+
+  img {
+    pointer-events: none;
+  }
 }
 
 .mobile-menu-header {
