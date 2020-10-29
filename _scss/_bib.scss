@@ -1,0 +1,127 @@
+.breadcrumb { 
+  background: transparent;
+  color: #FFFFFE;
+  font-size: 16px;
+}
+
+.breadcrumb li {
+  text-shadow: none !important;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background: transparent;
+  opacity: 0.8;
+}
+
+#bibbase_header {
+  background: transparent;
+}
+
+#bibbase_header a {
+  text-decoration: none;
+  color: #FFFFFe;
+}
+
+#bibbase_header i {
+  width: 16px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.nav .dropdown-toggle .caret {
+  border-top-color: #FE5E33;
+  border-bottom-color: #FE5E33;
+}
+
+.nav .dropdown-toggle:hover .caret {
+  border-top-color: #FE5E33;
+  border-bottom-color: #FE5E33;
+}
+
+.dropdown-menu>li>a, .dropdown-menu>li>a, .dropdown-submenu>a {
+  color: #000 !important;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+  background: #FE5E33;
+  color: #000 !important;
+  opacity: 0.8;
+}
+
+.bibbase_group {
+  /* background-color: #D0D0E0; */
+  background-color: #E0E0E0;
+  font-style: italic;
+  font-size: larger;
+  text-shadow: 0px 0px 3px #FFFFFF;
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px;
+  padding: 5px 40px 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.bibbase_group_body {
+  margin-left: 20px;
+}
+
+
+img.bibbase_icon {
+  width: 20px;
+  max-height: 16px;
+  vertical-align: text-top;
+}
+
+img.bibbase_icon:hover {
+  filter: none;
+  opacity: 0.8;
+}
+
+
+
+/* span.bibbase_icon_text { */
+/*     display: none; */
+/* } */
+
+.bibbase_code {
+  width: 80%
+}
+
+.comment {
+  font-size: smaller;
+  font-style: italic;
+  color: gray;
+}
+
+.recommended {
+  color: green;
+}
+
+/* bootstrap */
+
+.bibbase_msg {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#bibbase_embed_modal {
+  width: 70%;
+  left: 15%;
+  margin: 0;
+}
+
+.bibbase.well {
+  margin: 20px;
+  overflow-wrap: break-word;
+}
+
+.bibbase.link {
+  text-decoration: none;
+}
+
+.bibbase_paper_content {
+  font-size: smaller;
+}

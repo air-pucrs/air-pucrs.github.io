@@ -8,7 +8,7 @@ function applyFilters() {
   for (const filter of filters) {
     let checked = '';
 
-    $(`input[name="${filter}"]:checked`).each(function(){
+    $(`input[name="${filter}"]:checked`).each(function() {
       checked += `${$(this).val()}, `;
     });
     

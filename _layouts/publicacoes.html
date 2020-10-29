@@ -9,19 +9,21 @@ layout: default
     <div class="mt-16"></div>
     <div class="columns negative-m-xl">
       <div class="column col-12">
-        <ul class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="#">Publications</a>
-          </li>
-        </ul>
+        <div class="top-text">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}{{ site.baseurl }}">Air Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Publications</a>
+            </li>
+          </ul>
+        </div>
         <h2 class="text-light text-bold">Publications</h2>
         <div id="pub">
           <script type="text/javascript"> $.noConflict() </script>
-          <!-- <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=year&folding=1&nocache=1&filter=comment:(.*?(npl))"></script> -->
-          <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=comment&group1=year&folding=1&nocache=1"></script>          
+          <!-- <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=year&css=/css/styles.scss&folding=1&nocache=1&filter=comment:(.*?(npl))"></script> -->
+          <script src="https://bibbase.org/show?bib=https://air-pucrs.github.io/publications/publications.bib&jsonp=1&group0=comment&css=/css/styles.scss&group1=year&folding=1&nocache=1"></script>          
         </div> 
       </div>
     </div>
