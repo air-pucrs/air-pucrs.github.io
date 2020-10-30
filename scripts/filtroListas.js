@@ -18,9 +18,9 @@ function applyFilters() {
     }
   }
 
-  $(`div.filter-card${query}`).show();
-
   $(`div.filter-card:not(${query})`).hide();
+  $(`div.filter-card${query}`).show();
+  
   if (checked === 'doc') {
     $(`div.filter-card[data-nivel*="pos-doc"]`).hide();
   }
