@@ -3,11 +3,10 @@ const filter2 = document.getElementById("filters").getAttribute("data-filter2");
 const filters = [filter1, filter2];
 
 function applyFilters() {
+  let checked = "";
   let query = "";
 
   for (const filter of filters) {
-    let checked = '';
-
     $(`input[name="${filter}"]:checked`).each(function() {
       checked += `${$(this).val()}, `;
     });
@@ -17,19 +16,22 @@ function applyFilters() {
     if (checked !== '') {        
       query += `[data-${filter}*="${checked}"]`;
     }
-
   }
 
-  $(`div.filter-card:not(${query})`).hide();
   $(`div.filter-card${query}`).show();
+
+  $(`div.filter-card:not(${query})`).hide();
+  if (checked === 'doc') {
+    $(`div.filter-card[data-nivel*="pos-doc"]`).hide();
+  }
 
   const visibleCards = $('div.filter-card:visible').length;
 
   $('div.filter-card-empty')[0].style.display = visibleCards === 0 ? '' : 'none';
 }
 
-const input = $('input.filter')
+const input = $('input.filter');
 
-input.change(function(){
-  applyFilters()
+input.change(() => {
+  applyFilters();
 });
