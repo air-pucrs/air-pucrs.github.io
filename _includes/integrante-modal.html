@@ -9,7 +9,7 @@
           <div class="top-section">
             <div class="image-container">
               <figure class="avatar d-inline-block hide-sm">
-                <img  src="{{ site.baseurl }}/{{ integrante.foto}}" alt="{{ integrante.nome }}">
+                <img  src="{{ integrante.foto}}" alt="{{ integrante.nome }}">
               </figure>
               <div class="group-info">
                 <div class="ml-2">
@@ -20,7 +20,10 @@
                   <span class="mb-0"><span class="bold">Email:</span> {{integrante.email}}</span>
                 </div>
                 <div class="ml-2">
+                  {% if integrante.nivel == null %}
+                  {% else %}
                   <span><span class="bold">Level:</span> {{integrante.nivel}}</span>
+                  {% endif %}
                 </div> 
                 <div class="ml-2">
                   <span><span class="bold">Position:</span> {{integrante.posicao}}</span>
@@ -50,9 +53,6 @@
             {% if integrante.origem == null %}
             {% else %}
             <p>Cidade: {{integrante.origem}}</p>
-            {% endif %}
-            {% if integrante.sobre == null && integrante.formacao == null && integrante.origem == null %}
-            <p>No information about this member</p>
             {% endif %}
           </div>
        </div>

@@ -31,7 +31,6 @@
     linkedin: renata.vieira
     lattes: renata.vieira
     site: renata.vieira
-  sobre: 
   formacao: PhD in Computer Science
   origem: Porto Alegre - RS 
   nascimento: 01/09/1993
@@ -44,16 +43,10 @@
   foto: assets/logo-dummy.png
   email: renata.vieira@gmail.com
   redes-sociais:
-    facebook: 
-    insta: 
-    linkedin: 
     lattes: http://lattes.cnpq.br/4589262718627942
     site: http://www.inf.pucrs.br/r.bordini/Rafael_Bordini/Welcome.html
     dblp: https://dblp.uni-trier.de/pers/hd/b/Bordini:Rafael_H=.html
   sobre: I am an Associate Professor at FACIN-PUCRS since March 2012. Previous to this appointment, I was an associate professor at INF-UFRGS (from July 2009) and previous to that I was a Lecturer in the Department of Computer Science, Durham University, UK (July 2004 to January 2009). I read for a PhD at UCL (finished in early 1999), then worked as a visiting lecturer at INF-UFRGS (until May 2002), and from June 2002 to May 2004 I was a post-doctoral researcher at the University of Liverpool.
-  formacao: 
-  origem: 
-  nascimento: 
 
 - nome: Tabajara 
   sobrenome: Krausburg
@@ -63,11 +56,7 @@
   foto: https://avatars3.githubusercontent.com/u/10147197?s=460&v=4
   email: tabajara.rodrigues@edu.pucrs.br
   redes-sociais:
-    facebook: 
-    insta: 
-    linkedin: 
     lattes: http://lattes.cnpq.br/5382334937056578
-    site: 
     dblp: https://dblp.uni-trier.de/pers/hd/k/Krausburg:Tabajara
     orcid: 0000-0002-8252-4099
     github: https://github.com/TabajaraKrausburg
@@ -86,6 +75,7 @@
   email: alison.panisson@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/8825252769988113
+
 - nome: Juliana 
   sobrenome: Damasio
   grupos: health-ai, smart
@@ -154,47 +144,28 @@
   foto: https://i.ibb.co/ctmJTB4/Whats-App-Image-2019-11-24-at-14-03-33-3.jpg
   email: mateus.colissi@edu.pucrs.br
   redes-sociais:
-    facebook: 
     insta: https://www.instagram.com/mscolissi/
-    linkedin: 
     lattes: http://lattes.cnpq.br/9027071770132048
-    site: 
-    dblp: 
-    orcid: 
     github: https://github.com/Colissi
-    twitter: 
   sobre: Currently working with a conversational agent to assist in coordinating collaborative learning.
-  formacao: 
   origem: Santa Maria, Brazil
-  nascimento: 
 
 - nome: Davi
   sobrenome: Kniest da Silva
   grupos: smart
   posicao: Undergraduate Research Trainee
-  nivel: 
   foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2873136E5
   email: davi.kds.01@gmail.com 
   redes-sociais:
-    facebook: 
-    insta:
-    linkedin: 
     lattes: http://lattes.cnpq.br/6150427403268893
-    site: 
-    dblp: 
-    orcid: 
     github: https://github.com/Davi-K-Silva
-    twitter: 
   sobre: Undergraduate student at PUCRS in Computer Science
-  formacao: 
   origem: Porto Alegre, Brazil
-  nascimento: 
 
 - nome: Eric 
   sobrenome: Carlotto
   grupos: smart
   posicao: Undergraduate Research Trainee
-  nivel: 
   foto: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA9zZrbA-9Xl6Jmsnml0Nv8O063XPXuZHKwg&usqp=CAU
   email: eric.carlottoitapiruba@gmail.com 
   redes-sociais:
@@ -202,15 +173,9 @@
     insta: https://www.instagram.com/ericcarlotto/
     linkedin: 
     lattes: http://lattes.cnpq.br/3707765176085288
-    site: 
-    dblp: 
-    orcid: 
     github: https://github.com/ericcarlotto
-    twitter: 
   sobre: Undergraduate student at PUCRS in information systems
-  formacao: 
-  origem: Porto Alegre - Brazil
-  nascimento: 
+  origem: Porto Alegre - Brazil 
 
 - nome: Lucca
   sobrenome: Dornelles Cezar
@@ -219,39 +184,23 @@
   nivel: 
   foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?id=K9746597A1
   email: lucca.cezar@edu.pucrs.br
-  redes-sociais:
-    facebook: 
-    insta:
-    linkedin: 
+  redes-sociais: 
     lattes: http://lattes.cnpq.br/1493554402130962
-    site: 
-    dblp: 
-    orcid: 
     github: https://github.com/rukndf
-    twitter: 
-  sobre: 
-  formacao: 
   origem: Porto Alegre, Brazil
-  nascimento: 
 
 - nome: João Gabriel
   sobrenome: Dourado Cervo
   grupos: smart
   posicao: Undergraduate Research Trainee
   nivel: 
-  foto: https://media-exp1.licdn.com/dms/image/C5603AQGiGb8ejwFmCg/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=FC1rfre4azmdQYBn5_J3pK_hjQrHcNuZLc1bT_h8wAE
+  foto: https://pbs.twimg.com/profile_images/1321778586408411136/H6Ww0GFP_400x400.jpg
   email: j.dourado@edu.pucrs.br
   redes-sociais:
-    facebook: 
     insta: https://www.instagram.com/j_gabrr/
-    linkedin: 
     lattes: http://lattes.cnpq.br/6011842150801001
-    site: 
-    dblp: 
-    orcid: 
     github: https://github.com/Gabriel-Cervo
-    twitter: 
-  sobre: 
+  sobre: Undergraduate student at PUCRS in Computer Science
   formacao: 
   origem: São Borja, Brazil
   nascimento: 
@@ -260,23 +209,13 @@
   sobrenome: Pavanati Nascimento
   grupos: smart
   posicao: Undergraduate Research Trainee
-  nivel: 
   foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2187338T9
   email: samuelnascimento278@gmail.com 
   redes-sociais:
-    facebook: 
     insta: https://www.instagram.com/samuel_supers3/
-    linkedin: 
     lattes: http://lattes.cnpq.br/4307586519624886
-    site: 
-    dblp: 
-    orcid: 
     github: https://github.com/SamEngCompPUCRS
-    twitter: 
-  sobre: 
-  formacao: 
   origem: Porto Alegre, Brazil
-  nascimento:
 
   nome: Bernardo
   sobrenome: Scapini Consoli
@@ -285,17 +224,3 @@
   nivel: msc
   foto: assets/logo-dummy.png
   email: bernardo.consoli@acad.pucrs.br
-  redes-sociais:
-    facebook: 
-    insta: 
-    linkedin: 
-    lattes: 
-    site: 
-    dblp: 
-    orcid: 
-    github: 
-    twitter: 
-  sobre: 
-  formacao: 
-  origem: 
-  nascimento: 

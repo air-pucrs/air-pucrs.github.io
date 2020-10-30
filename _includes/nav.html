@@ -16,7 +16,7 @@
 
   <ul class="main-nav">
     <li class="dropdown mx-4">
-      <a href="{{ site.baseurl }}/" class="dropdown-toggle nav-links" style="color:white">Grupos</a>
+      <a href="{{ site.baseurl }}/" class="dropdown-toggle nav-links" style="color:white">Groups</a>
       <ul class="menu">
         <div class="arrow"></div>
         {% for group in site.data.grupos_list %}
@@ -30,16 +30,16 @@
     </li>
 
     <li class="mx-4">
-      <a class="nav-links" href="{{ site.baseurl }}/novidades">Novidades</a>
+      <a class="nav-links" href="{{ site.baseurl }}/novidades">News</a>
     </li>
     <li class="mx-4">
-      <a  class="nav-links" href="{{ site.baseurl }}/integrantes">Integrantes</a>
+      <a  class="nav-links" href="{{ site.baseurl }}/integrantes">Members</a>
     </li>
     <li class="mx-4">
-      <a  class="nav-links" href="{{ site.baseurl }}/projetos">Projetos</a>
+      <a  class="nav-links" href="{{ site.baseurl }}/projetos">Projects</a>
     </li>
     <li class="mx-4">
-      <a  class="nav-links" href="{{ site.baseurl }}/publicacoes">Publicações</a>
+      <a  class="nav-links" href="{{ site.baseurl }}/publicacoes">Publications</a>
     </li>
   </ul>
 </nav>
@@ -52,7 +52,7 @@
       </div>
       <div class="divider"></div>
       <li class="dropdown mx-4">
-        <a class="dropdown-toggle nav-links">Grupos</a>
+        <a class="dropdown-toggle nav-links">Groups</a>
         <ul class="menu">             
           {% for group in site.data.grupos_list %}
           {% capture grupo_name %}{{ group | first }}{% endcapture %}
@@ -65,16 +65,16 @@
       </li>
 
       <li class="mx-4">
-        <a class="nav-links" href="/novidades">Novidades</a>
+        <a class="nav-links" href="/novidades">News</a>
       </li>
       <li class="mx-4">
-        <a class="nav-links" href="/integrantes">Integrantes</a>
+        <a class="nav-links" href="/integrantes">Members</a>
       </li>
       <li class="mx-4">
-        <a class="nav-links" href="/projetos">Projetos</a>
+        <a class="nav-links" href="/projetos">Projects</a>
       </li>
       <li class="mx-4">
-        <a class="nav-links" href="/publicacoes">Publicações</a>
+        <a class="nav-links" href="/publicacoes">Publications</a>
       </li>
   </ul>
 </div>

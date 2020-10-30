@@ -38,6 +38,8 @@ function applyFilters() {
 
 const input = $('input.filter');
 
+applyFilters();
+
 input.change(() => {
   applyFilters();
 });
