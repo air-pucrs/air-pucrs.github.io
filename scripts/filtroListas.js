@@ -33,7 +33,10 @@ function applyFilters() {
 
   const visibleCards = $('div.filter-card:visible').length;
 
-  $('div.filter-card-empty')[0].style.display = visibleCards === 0 ? '' : 'none';
+  const emptyCard = $('div.filter-card-empty')[0];
+  if (emptyCard) {
+    emptyCard.style.display = visibleCards === 0 ? '' : 'none';
+  }
 }
 
 const input = $('input.filter');
