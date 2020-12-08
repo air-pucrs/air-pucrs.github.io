@@ -2,6 +2,8 @@
 
 👩‍💻👨‍💻 follow the instructions and everyting'll be fine 👩‍💻👨‍💻
 
+You are going to insert a new information by performing a [pull-request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). Keep calm, as soon as you modify a file and want to commit it, the option for a pull-request will appear for you. Just do it!
+
 📢 **Important:** It may take *several minutes* to get the website's information updated. Be patient.
 
 <details>
