@@ -135,6 +135,7 @@ layout: default
         {% endif %}
 
         {% if grupo.resources != null%}
+teste
           <div class="column col-12">
             <div class="card">
               <div class="card-body">                
@@ -144,13 +145,13 @@ layout: default
                     </div>
                   </div>
 
-                  {% for references in grupo.resources %}
-                  {% capture m %}{{ references | first }}{% endcapture %}
-                  <p class="text-dark text-small mb-0">{{m | replace: "-", " "}}</span></p>
-                  {% assign material = grupo.resources[m] %}
+                  {% for resource in grupo.resources %}
+                  {% capture r %}{{ resource | first }}{% endcapture %}
+                  <p class="text-dark text-small mb-0">{{r | replace: "-", " "}}</span></p>
+                  {% assign res = grupo.resources[r] %}
                   
                     <ul>
-                        {% assign itens = material | split: ";" %}
+                        {% assign itens = res | split: ";" %}
                         {% for item in itens %}
                             <li>{{item}}</li>
                         {% endfor %}                   
