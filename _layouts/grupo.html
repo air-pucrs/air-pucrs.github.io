@@ -42,7 +42,7 @@ layout: default
             <div class="card-body">                
                 <div class="flex-vertical-center mb-4">
                   <div class="ml-2">
-                    <p class="text-dark text-small mb-0">Temas de Pesquisa</span></p></p>
+                    <p class="text-dark text-small mb-0">Temas de Pesquisa</span></p>
                   </div>
                 </div>
                 <ul>
@@ -60,7 +60,7 @@ layout: default
             <div class="card-body">                
                 <div class="flex-vertical-center mb-4">
                   <div class="ml-2">
-                    <p class="text-dark text-small mb-0">Áreas de Atuação</span></p></p>
+                    <p class="text-dark text-small mb-0">Áreas de Atuação</span></p>
                   </div>
                 </div>
                 <ul>
@@ -78,7 +78,7 @@ layout: default
             <div class="card-body">                
                 <div class="flex-vertical-center mb-4">
                   <div class="ml-2">
-                    <p class="text-dark text-small mb-0">Coordenadores</span></p></p>
+                    <p class="text-dark text-small mb-0">Coordenadores</span></p>
                   </div>
                 </div>
                 <ul>
@@ -96,7 +96,7 @@ layout: default
             <div class="card-body">                
                 <div class="flex-vertical-center mb-4">
                   <div class="ml-2">
-                    <p class="text-dark text-small mb-0">Contatos</span></p></p>
+                    <p class="text-dark text-small mb-0">Contatos</span></p>
                   </div>
                 </div>
                 <ul>
@@ -116,7 +116,7 @@ layout: default
               <div class="card-body">                
                   <div class="flex-vertical-center mb-4">
                     <div class="ml-2">
-                      <p class="text-dark text-small mb-0">Materias de Introdução</span></p></p>
+                      <p class="text-dark text-small mb-0">Materias de Introdução</span></p>
                     </div>
                   </div>
                   <ul>
@@ -129,6 +129,34 @@ layout: default
                   </li>
                   {% endfor %}                   
                 </ul>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+
+        {% if grupo.resources != null%}
+          <div class="column col-12">
+            <div class="card">
+              <div class="card-body">                
+                  <div class="flex-vertical-center mb-4">
+                    <div class="ml-2">
+                      <p class="text-dark text-small mb-0">Recursos e Ferramentas</span></p>
+                    </div>
+                  </div>
+
+                  {% for references in grupo.resources %}
+                  {% capture m %}{{ references | first }}{% endcapture %}
+                  <p class="text-dark text-small mb-0">{{m | replace: "-", " "}}</span></p>
+                  {% assign material = grupo.resources[m] %}
+                  
+                    <ul>
+                        {% assign itens = material | split: ";" %}
+                        {% for item in itens %}
+                            <li>{{item}}</li>
+                        {% endfor %}                   
+                    </ul>
+                  {% endfor %}                   
+                
               </div>
             </div>
           </div>
