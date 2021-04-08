@@ -10,7 +10,7 @@ nlp: #utilizado para identificar os dados desse grupo
   temas-de-pesquisa: Extração de Informação, Reconhecimento de Entidades Nomeadas, Ontologias, Aprendizado de Ontologias, Extração de Termos e Conceitos, Extração de Relações Semânticas, Geração de Recursos Lexicais, Geração de Tesauros, População de Ontologias, Mineração de Opinião, Tecnologias Semânticas, Sistemas Multiagentes #temas de pesquisa separados por ,
   areas-de-atuacao: 'Interpretação de textos: resolução de correferência e análise de sentimentos, Interação em Linguagem Natural: chatter bots, Organizações: reconhecimento de menções à organizações e seus relacionamentos com locais e pessoas, Geologia: reconhecimento de menções e entidades geológicas em textos, Gestão do Conhecimento: alinhamento de ontologias e visualização de alinhamentos, Engenharia de Software: uso de ontologias em modelagem de sistemas' #areas de atuação separados por ,
   #id dos integrantes (seguir os registros do arquivo integrantes-list) separados por ,
-  coordenadores: breather2 
+  coordenadores: Renata Vieira, Rafael H. Bordini 
   contatos: #contatos do grupo
     telefone: (51) 3320-8612 # id : contato, o id é utilizado como 'tipo' do contato
     endereço: Av. Ipiranga, 6681 Prédio 32 (FACIN) - Sala 630 (Laboratório PLN)
@@ -32,7 +32,7 @@ smart:
   logo: assets/smart/logos/SMARTlogo.png
   temas-de-pesquisa: Argumentation, Multi-Agent Planning, Task Allocation, Formal Semantics, Formal Verification of Multi-Agent Systems, Multi-Agent Oriented Programming Languages, Intention Recognition, Conceptual Spaces, Ontological Reasoning
   areas-de-atuacao: Assisted Living, Disaster Management, Human-Agent Teams, Cognitive Robotics, Multi-Robotics, Protected-area patrol, Smart Cities, Logistics
-  coordenadores: breather3
+  coordenadores: Rafael H. Bordini
   contatos:
     telefone: 
     email: smart.pucrs@gmail.com
@@ -46,7 +46,7 @@ health-ai:
   logo: assets/logo-AIR.png
   temas-de-pesquisa: tema 1
   areas-de-atuacao: area 2
-  coordenadores: breather3
+  coordenadores: Rafael H. Bordini
   contatos:
     endereço: endereço 1
     email: email 1
