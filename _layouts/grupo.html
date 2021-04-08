@@ -84,9 +84,7 @@ layout: default
                 <ul>
                   {% assign coordenadores = grupo.coordenadores | split: "," %}
                   {% for manager in coordenadores %}
-                  {% assign m = manager | strip %}
-                  {% assign coordenador = site.data.integrantes_list[m] %}
-                  <li>{{coordenador.nome}} {{coordenador.sobrenome}}</li>
+                  <li>{{manager}}</li>
                   {% endfor %}                   
                 </ul>
             </div>
