@@ -64,7 +64,9 @@ Insert the info below into the file [projetos_list.yaml](projetos_list.yaml) and
 ```
   
 ### **Publications**
-  
+
+Modify this [file](https://github.com/air-pucrs/air-pucrs.github.io/blob/master/publications/publications.bib)!
+
 All entries are initially grouped by *comment*, followed by *year*. After that, they are sorted by its *entry position* in the file. 
 
 All fields in a bib entry will be shown in the website. In case you don't want to show a particular field, but want to keep it in the bib entry, you should use: ["_"] before the field's name (e.g., pass: [_year=2018]). You can also use the _abstract_ and _keyword_ fields; all the text inserted in these fields are displayed as folded sections underneath your publication.  
