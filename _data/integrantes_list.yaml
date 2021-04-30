@@ -96,15 +96,18 @@
   redes-sociais:
     lattes: http://lattes.cnpq.br/3339071169068613
 
-- nome: Débora 
+- nome: Débora Cristina
   sobrenome: Engelmann
   grupos: health-ai, smart
   posicao: PhD Student
   nivel: doc
-  foto: assets/logo-dummy.png
+  foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8540781U9
   email: debora.engelmann@acad.pucrs.br
   redes-sociais:
     lattes: http://lattes.cnpq.br/0774052060467864
+    dblp: https://dblp.org/pid/225/2571
+    orcid: 0000-0002-6090-8294
+    github: https://github.com/DeboraEngelmann
 
 - nome: Janete 
   sobrenome: Urbanetto
