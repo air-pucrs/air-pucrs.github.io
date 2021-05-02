@@ -227,3 +227,16 @@
   nivel: msc
   foto: assets/logo-dummy.png
   email: bernardo.consoli@acad.pucrs.br
+  
+  - nome: Thiago 
+  sobrenome: Berton Ferreira
+  grupos: health-ai
+  posicao: PhD Student
+  nivel: doc
+  foto: assets/logo-dummy.png
+  email: thiago.ferreira96@edu.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/2549978927339009
+    github: https://github.com/thiagoberton
+  origem: Passo Fundo - RS, Brazil
+  nascimento: 05/03/1996
