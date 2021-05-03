@@ -1,5 +1,17 @@
 #This file defines all the members
 
+- nome: Flavia #nome
+  sobrenome: Carpes Webster 
+  grupos: smart 
+  posicao: Undergraduate Research Trainee 
+  email: flaviawebster.fcw@gmail.com
+  redes-sociais: 
+    facebook: https://www.facebook.com/flavia.carpeswebster/
+    insta: https://www.instagram.com/flavia.webster/
+    linkedin: linkedin.com/in/flavia-carpes-webster-a590291b5
+    lattes: http://lattes.cnpq.br/1742151428529881
+  
+
 - nome: Avner #nome
   sobrenome: Dal Bosco #sobrenome
   grupos: nlp #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
