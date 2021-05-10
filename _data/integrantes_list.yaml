@@ -235,11 +235,16 @@
 
 - nome: Bernardo
   sobrenome: Scapini Consoli
-  grupos: nlp
-  posicao: MsC Student
-  nivel: msc
-  foto: assets/logo-dummy.png
+  grupos: nlp, health-ai
+  posicao: PhD Student
+  nivel: doc
+  foto: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4311634D8
   email: bernardo.consoli@acad.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/0781359367938470
+    dblp: https://dblp.org/pid/241/3945
+    orcid: 0000-0003-0656-511X
+  origem: Porto Alegre, Brazil
   
 - nome: Thiago 
   sobrenome: Berton Ferreira
