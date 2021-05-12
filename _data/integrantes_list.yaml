@@ -258,3 +258,16 @@
     github: https://github.com/thiagoberton
   origem: Passo Fundo - RS, Brazil
   nascimento: 05/03/1996
+
+- nome: Giovani Nícolas 
+  sobrenome: Bettoni
+  grupos: nlp, health-ai
+  posicao: MsC Student
+  nivel: msc
+  foto: assets/logo-dummy.png
+  email: giovani.bettoni@edu.pucrs.br
+  redes-sociais:
+    lattes: http://lattes.cnpq.br/6350735101501043
+    github: https://github.com/giovaninb
+  origem: Bento Gonçalves - RS, Brazil
+  nascimento: 05/11/1996
