@@ -316,3 +316,13 @@
   links: 
     git: 
     conferencia: 
+    
+- titulo: Ciência de Dados no Acompanhamento do Paciente com Doença Renal Crônica 
+  status: active
+  palavras-chaves: Diálise; Biomarcadores; Inteligência Artificial
+  descricao: A Doença Renal Crônica (DRC) é uma epidemia que afeta 850 milhões de pessoas. No Brasil, estão em diálise 133.464 pessoas com mortalidade bruta de 19,5% ao ano. Nosso objetivo é criar tecnologias em saúde inovadoras e interdisciplinares pela IA, gerando instrumentos de monitoramento que possibilitem avaliar a efetividade dos exames clínicos, reduzindo custos do sistema de saúde e melhorando a qualidade de vida dos pacientes. 
+  tecnologias: 
+  grupos: health-ai
+  links: 
+    git: 
+    conferencia: 
