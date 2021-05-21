@@ -276,3 +276,43 @@
     git_2: https://github.com/smart-pucrs/mapc2017-pucrs
     git_3: https://github.com/smart-pucrs/mapc2018-pucrs
     conferencia: 
+    
+- titulo: Validação de Alocação de Leitos
+  status: active
+  palavras-chaves: chatbot, leitos
+  descricao: Sistema inteligente para ser usado como um raciocinador em um robô ou chatbot, destinado a auxiliar na alocação de pacientes em leitos hospitalares disponíveis. O sistema usa técnicas de inteligência artificial e interação com usuários em linguagem natural. É responsável por validar as alocações iniciais criadas por humanos usando técnicas de validação de planos e apontar possíveis problemas com as alocações propostas, bem como, sugestões de melhoria.
+  tecnologias: 
+  grupos: health-ai
+  links: 
+    git: https://github.com/DeboraEngelmann/Hospital-Bed-Allocation-Ontology
+    conferencia: 
+    
+- titulo: Detecção de Eventos Adversos em Prontuários Eletrônicos
+  status: active
+  palavras-chaves: ontologia, aprendizagem de máquina, prontuários eletrônicos
+  descricao: Sistema de classificação, baseado em dicionário de termos e extração de features, utilizando ontologias e processamento da linguagem natural para o português, para identificar eventos adversos em prontuários eletrônicos utilizando aprendizagem de máquina.
+  tecnologias: 
+  grupos: health-ai
+  links: 
+    git: 
+    conferencia: 
+    
+- titulo: Arquitetura multiagente para controle de um robô assistivo de companhia para pessoas com deficiência visual
+  status: active
+  palavras-chaves: deficiência visual, arquitetura multiagente
+  descricao: O desenvolvimento das tecnologias de ambiente de vida assistida (AAL) e Inteligência de Ambiente (AmI) são uma excelente oportunidade para ajudar pessoas que possuem deficiência, oferecendo apoio em suas atividades diárias. O grupo de pessoas com deficiência inclui a deficiência visual, que é o foco deste trabalho. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), existem aproximadamente 36 milhões de pessoas com deficiência visual no Brasil. Essas pessoas enfrentam várias barreiras em sua vida cotidiana, como identificar objetos, prever obstáculos, locomoção, entre outros. Este trabalho visa a criação de uma arquitetura multiagente em AAL para o controle de um robô assistivo de companhia para pessoas com deficiência visual a serem utilizadas em sua residência. O objetivo é fornecer às pessoas com deficiência visual um companheiro, ajudando na percepção de riscos nos cômodos da casa, prevenindo acidentes domésticos e, além disso, ser uma companhia fornecendo algum tipo de interação.
+  tecnologias: 
+  grupos: health-ai
+  links: 
+    git: 
+    conferencia: 
+    
+- titulo: Raciocínio sobre Evoluções Médicas
+  status: active
+  palavras-chaves: raciocínio clínico
+  descricao: O raciocínio clínico é o processo pelo qual usamos informações para tomar decisões sobre diagnóstico, tratamento e gerenciamento. Nossa compreensão do raciocínio clínico aumentou recentemente, com base no trabalho em ciência cognitiva em torno de como as pessoas tomam decisões e processam a incerteza.
+  tecnologias: 
+  grupos: health-ai
+  links: 
+    git: 
+    conferencia: 
