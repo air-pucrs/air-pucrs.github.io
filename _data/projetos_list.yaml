@@ -297,7 +297,7 @@
     git: 
     conferencia: 
     
-- titulo: Arquitetura multiagente para controle de um robô assistivo de companhia para pessoas com deficiência visual
+- titulo: Arquitetura Multiagente para Controle de um Robô Assistivo de Companhia para Pessoas com Deficiência Visual
   status: active
   palavras-chaves: deficiência visual, arquitetura multiagente
   descricao: O desenvolvimento das tecnologias de ambiente de vida assistida (AAL) e Inteligência de Ambiente (AmI) são uma excelente oportunidade para ajudar pessoas que possuem deficiência, oferecendo apoio em suas atividades diárias. O grupo de pessoas com deficiência inclui a deficiência visual, que é o foco deste trabalho. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), existem aproximadamente 36 milhões de pessoas com deficiência visual no Brasil. Essas pessoas enfrentam várias barreiras em sua vida cotidiana, como identificar objetos, prever obstáculos, locomoção, entre outros. Este trabalho visa a criação de uma arquitetura multiagente em AAL para o controle de um robô assistivo de companhia para pessoas com deficiência visual a serem utilizadas em sua residência. O objetivo é fornecer às pessoas com deficiência visual um companheiro, ajudando na percepção de riscos nos cômodos da casa, prevenindo acidentes domésticos e, além disso, ser uma companhia fornecendo algum tipo de interação.
