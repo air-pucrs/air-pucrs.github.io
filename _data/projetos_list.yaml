@@ -326,3 +326,13 @@
   links: 
     git: 
     conferencia: 
+   
+- titulo: 'Geologia Digital: Busca Integrada de Dados Geocientíficos Heterogêneos'  #titulo
+  status: done #status de andamento
+  palavras-chaves: nlp, geology, information retrieval, oil and gas #palavras chaves separadas por ,
+  descricao: 'Projeto visa levantar, avaliar e recomendar soluções para a busca integrada a dados heterogêneos no domínio de geologia de exploração e geoengenharia de reservatórios que utilizem a semântica da informação e a geolocalização. São aplicadas técnicas de mineração de dados, machine learning, ontologias, processamento de imagens e classificação de documentos de acordo com Arquivologia.'
+  tecnologias: word embeddings, neural networks #tecnologias utilziadas separadas por ,
+  grupos: nlp #id dos grupos (seguir os registros do arquivo grupos-list) separados por ,
+  links: #links úteis
+    git: 'https://github.com/Petroles/Petrovec'
+    conferencia:
