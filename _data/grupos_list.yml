@@ -1,7 +1,7 @@
 #This file defines all the groups
 
 nlp: #utilizado para identificar os dados desse grupo 
-  nome: Natural Language Processing Language #nome do grupo
+  nome: Natural Language Processing #nome do grupo
   abreviacao: NLP #abreviação
   descricao: The Natural Language Processing lab at PUCRS develops research related to computational semantics, the semantic interpretation of natural language, extraction of information with linguistic processing, corpus-based knowledge engineering, and development and application of ontologies. #descrição do grupo
   resumo: Our research involves computational semantics, information extraction and linguistic knowledge engineering #descrição resumida do grupo
