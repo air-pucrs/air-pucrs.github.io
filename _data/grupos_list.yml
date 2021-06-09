@@ -51,8 +51,8 @@ smart:
 
 health-ai:
   nome: Research Group on Artificial Intelligence in Healthcare
-  abreviacao: Health AI
-  descricao: Somos a ia-saude descrição completa
+  abreviacao: AI in Healthcare
+  descricao: The Research Group on Artificial Intelligence in Healthcare is an interdisciplinary reasearch group involving researchers from the School of Techology and the School of Health and Life Sciences. Both machine-learning and knowledge-based techinques are used to develop a variety of applications including chatbots and decision support systems in a variety of healthcare themes such as hosptial bed allocation, pharmacogenomics, eldercare, and assisted living for disabled users.
   resumo: Somos a ia-saude descrição resumida
   link: health-ai
   logo: assets/logo-AIR.png
