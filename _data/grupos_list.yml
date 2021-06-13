@@ -39,7 +39,7 @@ smart:
   nome: Semantic, Multi-Agent, and Robotic Technologies
   abreviacao: SMART
   descricao: The SMART research group produces internationally leading research in Artificial Intelligence, especially in the areas of multi-agent systems and domain-specific knowledge representation using formal ontologies. Overall, the group aims to employ the techniques it develops in the production of innovative technology for the social good and sustainability.
-  resumo: We research in the areas of multi-agent systems and domain-specific knowledge representation using formal ontologies
+  resumo: We do research in the areas of multi-agent systems and knowledge representation using formal ontologies
   link: smart
   logo: assets/smart/logos/SMARTlogo.png
   temas-de-pesquisa: Argumentation, Multi-Agent Planning, Task Allocation, Formal Semantics, Formal Verification of Multi-Agent Systems, Multi-Agent Oriented Programming Languages, Intention Recognition, Conceptual Spaces, Ontological Reasoning
@@ -53,12 +53,12 @@ health-ai:
   nome: Research Group on Artificial Intelligence in Healthcare
   abreviacao: AI in Healthcare
   descricao: The Research Group on Artificial Intelligence in Healthcare is an interdisciplinary reasearch group involving researchers from the School of Techology and the School of Health and Life Sciences. Both machine-learning and knowledge-based techinques are used to develop a variety of applications including chatbots and decision support systems in a variety of healthcare themes such as hosptial bed allocation, pharmacogenomics, eldercare, and assisted living for disabled users.
-  resumo: Somos a ia-saude descrição resumida
+  resumo: We use AI techniques for hospital bed allocation, pharmacogenomics, eldercare, and a variety of other applications.
   link: health-ai
   logo: assets/logo-AIR.png
-  temas-de-pesquisa: tema 1
-  areas-de-atuacao: area 2
+  temas-de-pesquisa: Machine Learning, Natural Language Processing, Automated Planning, Ontologies, Argumentation, Multi-Agent Systems, Multi-Agent Oriented Programming 
+  areas-de-atuacao: Adverse event detection, Hospital bed allocation, Pharmacogenomics, Eldercare, Assited Living
   coordenadores: Rafael H. Bordini
   contatos:
-    endereço: endereço 1
-    email: email 1
+    endereço: 
+    email: ?????
