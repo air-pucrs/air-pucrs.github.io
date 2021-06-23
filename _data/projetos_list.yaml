@@ -336,3 +336,10 @@
   links: #links úteis
     git: 'https://github.com/Petroles/Petrovec'
     conferencia:
+
+- titulo: Applying Machine Learning Techniques to the Pharmacogenomics of Esophagus Cancer
+  status: active
+  palavras-chaves: machine learning, pharmacogenomics, oncology
+  descricao: Pharmacogenomics is the study of how genetic alterations influence drug response. It can support decisions on the most appropriate treatment for different people given their genetic profiles. Work in bioinformatics has greatly benefited from recent advances in predictive models based on machine learning techniques. Recent studies map the response of cancer cell strains to a vast collection of drugs used for cancer treatment. We will explore publicly available data as well as local data from Hospital São Lucas at PUCRS and develop machine learning models to predict the response of oesophageal cancer patients to a variety of drugs based on their genetic profile and the cancer cell strains. This could lead to improvements in caring for patients undergoing cancer treatment as well as having significant economic impact.
+  grupos: health-ai
+  links:
