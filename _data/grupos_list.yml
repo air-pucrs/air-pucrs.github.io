@@ -55,7 +55,7 @@ health-ai:
   descricao: The Research Group on Artificial Intelligence in Healthcare is an interdisciplinary reasearch group involving researchers from the School of Techology and the School of Health and Life Sciences. Both machine-learning and knowledge-based techinques are used to develop a variety of applications including chatbots and decision support systems in a variety of healthcare themes such as hosptial bed allocation, pharmacogenomics, eldercare, and assisted living for disabled users.
   resumo: We use AI techniques for hospital bed allocation, pharmacogenomics, eldercare, and a variety of other applications.
   link: health-ai
-  logo: assets/logo-AIR.png
+  logo: assets/health-ai/health-ailogo.png
   temas-de-pesquisa: Machine Learning, Natural Language Processing, Automated Planning, Ontologies, Argumentation, Multi-Agent Systems, Multi-Agent Oriented Programming 
   areas-de-atuacao: Adverse event detection, Hospital bed allocation, Pharmacogenomics, Eldercare, Assited Living
   coordenadores: Rafael H. Bordini
